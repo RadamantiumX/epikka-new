@@ -1,37 +1,47 @@
 import React, {useState, useEffect} from "react";
-import Fondo1 from '../../assets/img/portfolio.jpg';
-import Fondo2 from '../../assets/img/metricas-service-desk.jpg';
+import './styles-only-bg-routes.css';//Estilos solo para cambio de background
 
 
-//Este es el HEADER q llevan todas las sub-paginas pero cambia la imagen de fondo
-export default function HeaderDefault() {
-     const [bg, setBg] = useState('');
-     const [text, setText] = useState('');
-     const [header, setHeader] = useState();
-     const [path, setPath] = useState();
-
-     const handleSelect = (params)=>{
-        switch (params) {
-            case '/portfolio':
-                setBg(`linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%), url('${Fondo1}');`);
-                setText('Titulo para Portfolio');
-                break;
-            case '/service':
-                setBg(`linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%), url('${Fondo2}');`);
-                setText('Titulo para Servicio');    
-                break;
-            default:
-                break;
-        }
-        header.style.backgroundImage = bg;
+//Este es el HEADER q llevan todas las sub-paginas pero cambia la imagen de fondo dinamicamente
+export default function HeaderDefault({params}) {
+     const [bg, setBg] = useState({});//Background
+     const [text, setText] = useState('');//Texto para titulo
+     const [header, setHeader] = useState();//Seteo de seleccion de Tag clase
+     
+//Seleccion de "Backgorund-Image" y texto del titulo
+     const handleSelect = ()=>{   
+       switch (bg) {
+        case 'service':
+            header.classList.add('bg-service');
+            setText('Titulo para servicio');
+            break;
+        case 'portfolio':
+            header.classList.add('bg-portfolio');
+            setText('Titulo para portfolio'); 
+            break;
+        case 'metadata':
+            header.classList.add('bg-metadata');
+            setText('Titulo para Metadata');
+            break;
+        case 'contact':
+            header.classList.add('bg-contact');
+            setText('Titulo para Contacto');
+            break;
+        case 'about':
+            header.classList.add('bg-about');
+            setText('Titulo para About');  
+            break;              
+        default:
+            break;
+       }      
      }
+
 useEffect(()=>{
-    handleSelect(path);
-    
-    setHeader(document.querySelector('.header'));
-    setPath(window.location.pathname)
-    console.log(path)
-},[])
+    handleSelect();
+    setBg(params)
+    setHeader(document.querySelector('.header'));  
+    console.log(params)
+},[bg, header])
     
     return(
         <>

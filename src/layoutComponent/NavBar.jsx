@@ -38,7 +38,7 @@ export default function NavBar() {
           id="mainNav"
         >
           <div className="container d-flex justify-content-start navegacion d-flex justify-content-between">
-            <Link to="/">
+            <Link to="/home">
              <a className="navbar-brand fw-bold" href="#page-top" title="Home page">
               {/*<h3 style={{ color: "#ffff" }}>Logo</h3>*/}<img src={Logo} alt="epikka-logo-type-frontend" className="logo-img"/>
              </a>
@@ -61,14 +61,14 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className=" navbar-nav ms-auto me-2 my-2 my-lg-0">
                 <li className="nav-item">
-                  <Link to="/servicios">
+                  <Link to="/service">
                     <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/servicios">
                       Servicios
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/portafolio">
+                  <Link to="/portfolio">
                   <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/portafolio">
                     Portafolio
                   </a>

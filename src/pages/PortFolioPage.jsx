@@ -5,7 +5,7 @@ import PortFolioContent from "../components/portfolio/PortFolioContent";
 export default function PortFolioPage() {
     return(
         <>
-        <HeaderDefault/>
+        <HeaderDefault params={'portfolio'}/>
         <PortFolioContent/>
         </>
     )

@@ -5,7 +5,7 @@ import ServiceContent from "../components/service/ServiceContent";
 export default function ServicePage() {
      return(
         <>
-          <HeaderDefault/>
+          <HeaderDefault params={'service'}/>
           <ServiceContent/>
         </>
      )    

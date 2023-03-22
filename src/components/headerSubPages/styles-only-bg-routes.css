@@ -1,0 +1,16 @@
+/* Este archivo es solo para cambiar la imagen de fondo segun la ruta */
+.bg-service{
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/metricas-service-desk.jpg);
+ }
+.bg-portfolio{
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/portfolio.jpg);
+}
+.bg-about{
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/aboutus.jpeg);
+}
+.bg-contact{
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/contact.jpg);
+}
+.bg-metadata{
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/metadata.jpg);
+}
