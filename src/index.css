@@ -23,6 +23,11 @@ a:hover {
 	color: #ffaf53 !important;
 }
 
+
+
+
+
+
 /* NavBar (copiado y pegado del proyecto anterior) */
 .navbar {
 	position: fixed;
@@ -101,9 +106,12 @@ a:hover {
 	width: 160px;
 	height: auto;
 }
-
-
 /* Fin de NavBar */
+
+
+
+
+
 
 
 /* Footer (copiado y pegado del proyecto anterior) */
@@ -141,6 +149,11 @@ a:hover {
 }
 /* Fin de Footer  */
 
+
+
+
+
+
 /* Header subpaginas */
 .header{
   height: 60vh;
@@ -172,6 +185,10 @@ margin: auto !important;
 padding: 60px 0 !important;
 }
 /* Fin de Header subpaginas */
+
+
+
+
 
 /* Header HomePage */
 .header1{
@@ -220,3 +237,131 @@ color: #fff;
 text-align: center;
 }
 /* Fin Header HomePage */
+
+
+
+
+
+
+/* ContactUs  */
+.bg-section{
+  background-color: #fafafa;
+}
+.contact_form{	
+width: 460px; 
+height: auto;
+margin: 80px auto;
+border-radius: 10px;  
+padding-top: 17px;
+padding-bottom: 3px;  
+background-color: rgb(255, 255, 255); 
+padding-left: 30px; 
+-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.contact_form  {
+  max-width: 100%;
+}
+.input{
+  width: 30rem;
+}
+.css-button-gradient--1{
+  width: 200px;
+}
+}
+
+input{
+background-color: #fbfbfb; 
+width: 93%; 
+height: 40px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #d8d8d8; 
+margin-top: 1px;  
+padding-left: 10px;
+margin-bottom: 1px; 
+}
+
+
+textarea{
+background-color: #fbfbfb; 
+width: 93%; 
+height: 150px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #d8d8d8; 
+margin-top: 10px;  
+padding-left: 10px;
+margin-bottom: 20px; 
+padding-top: 15px; 
+}
+
+
+label{
+display: block; 
+float: center; 	
+}
+
+
+.css-button-gradient--1 {
+  padding-left: 5px;
+padding-right: 5px; 
+width: 93%; 
+  margin-bottom: 20px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background: rgb(107,21,153);
+background: linear-gradient(90deg, rgba(107,21,153,1) 0%, rgba(251,152,137,1) 100%);
+}
+.css-button-gradient--1:hover {
+  background-position: right center;
+}
+.css-button-gradient--1:active {
+  top: 2px;
+} 
+
+span{
+color: #df92fe; 
+}
+
+
+.aviso{
+font-size: 13px;  
+color: #0e0e0e;  
+}
+
+::-webkit-input-placeholder {
+color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+/* Fin ContactUs */
