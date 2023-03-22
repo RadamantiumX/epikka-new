@@ -50,7 +50,7 @@ export default function Footer() {
                     </a>
                     </Link>
                     
-                    <Link to="/servicios">
+                    <Link to="/service">
                     <a
                       style={{
                         textDecoration: "none",
@@ -65,7 +65,7 @@ export default function Footer() {
                     </a>
                     </Link>
                     
-                    <Link to="/portafolio">
+                    <Link to="/portfolio">
                      <a
                       style={{
                         textDecoration: "none",
