@@ -85,7 +85,7 @@ export default function NavBar() {
                 <li className="nav-item">
                   <Link to="/about">
                   <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/about">
-                    Sobre Nosotros
+                    Agencia
                   </a>
                   </Link>
                   

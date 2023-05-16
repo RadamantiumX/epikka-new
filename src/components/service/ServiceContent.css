@@ -1,0 +1,403 @@
+
+
+.services .services-heading{
+	text-align: center;
+    margin-bottom: 80px;
+}
+
+.services h2{
+	font-size: 36px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.services em{
+    font-style: normal;
+    color: #c639b3;
+}
+
+
+.service-item{
+    margin-bottom: 4rem;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+
+.service-item img{
+	width: 100%;
+    overflow: hidden;
+}
+
+.service-item .down-content{
+	background-color: #ffffff;
+    padding: 30px;
+}
+
+.service-item .down-content h4{
+	font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+.service-item .down-content p{
+	margin-bottom: 20px;
+	font-size: 14px;
+    color: #848484;
+    line-height: 30px;
+}
+
+a.filled-button{
+	background-color: #a4c639;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.request-form h4{
+	font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+/* FONDO TRANSPARENTE */
+
+.work-section{
+	background-image: url('https://themewagon.github.io/finance-business/assets/images/fun-facts-bg.jpg');
+
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    color: #fff;
+}
+
+.work-section .left-content{
+	margin-right: 45px;
+}
+
+.left-content span{
+	text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.left-content h2{
+	font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.left-content em{
+	font-style: normal;
+    background: #6B1599;
+background: linear-gradient(to right, #6B1599 19%, #FB9889 81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.left-content p{
+	color: #fff;
+	font-size: 22.6px;
+	line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.count-content{
+	text-align: center;
+    background-color: rgba(250,250,250,0.1);
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+}
+
+.count-content h1{
+	margin: 5px 0px;
+    color: #a4c639;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.count-content h2{
+	font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/* Contact */
+
+
+.more-detail{
+	margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.more-info-content{
+	background-color: #f7f7f7;
+}
+
+.more-info-content img{
+	width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.more-info-content .right-content{
+	padding: 45px 45px 45px 30px;
+}
+
+.right-content span{
+	text-transform: uppercase;
+    font-size: 15px;
+    color: #666;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.right-content h2{
+	font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+
+}
+
+.right-content em{
+	font-style: normal;
+    background: #6B1599;
+background: linear-gradient(to right, #6B1599 19%, #FB9889 81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.right-content p{
+	margin-bottom: 30px;
+	font-size: 22.6px;
+    color: #848484;
+    line-height: 30px;
+}
+
+
+/* form */
+#contact {
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    max-width: 400px;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    margin-top: 3rem;
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.6);
+  }
+  
+  /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }

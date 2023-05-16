@@ -1,10 +1,13 @@
-import React from "react";
+import React from 'react'
 
-
-export default function AboutContent() {
-
-    return(
-        <></>
-    )
+function AboutContent() {
+  return (
+    <>
     
+
+    </>
+
+  )
 }
+
+export default AboutContent

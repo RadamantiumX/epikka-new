@@ -14,18 +14,11 @@ export default function ContactUs() {
               <div className="col-1"></div>
               <div className="col-md-5 mb-50">
                 <div className="section-info">
-                  <div className="">
-                    <hr
-                      class="mb-3 mt-0 divider   "
-                      style={{
-                        width: "70px",
-                        backgroundColor: "#df92fe",
-                        height: "3px",
-                      }}
-                    />
-                    <h4>Envianos tu Consulta</h4>
+                  <div style={{marginTop:"1.3rem"}} className="sec-title">
+                
+                    <h2>Envianos tu Consulta</h2>
 
-                    <p>
+                    <p style={{fontSize:"1.3rem",lineHeight:"30px",fontWeight:"400",marginTop:"35px", fontFamily:"'Lato', sans-serif;", }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

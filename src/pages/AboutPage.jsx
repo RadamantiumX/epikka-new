@@ -8,6 +8,7 @@ export default function AboutPage() {
         <>
         <HeaderDefault params={'about'}/>
         <AboutContent/>
+
         </>
     )
     
