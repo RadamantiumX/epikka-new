@@ -104,7 +104,7 @@ export default function Form() {
                 {notification}
               </Alert>}
             <button
-              className="css-button-gradient--1"
+              className="css-button-fully-rounded--black"
               type="submit"
               name="enviar_formulario"
               id="enviar"

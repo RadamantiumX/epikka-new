@@ -46,7 +46,7 @@ export default function Footer() {
                       title="About Us"
                       
                     >
-                      SOBRE NOSOTROS
+                     AGENCIA
                     </a>
                     </Link>
                     

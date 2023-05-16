@@ -1,3 +1,26 @@
+.css-button-fully-rounded--black {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #212529;
+  background: #212529;
+  margin-bottom: 1rem;
+}
+.css-button-fully-rounded--black:hover {
+  background: #fff;
+  color: #212529
+}
+
+
+
 .arch_contact_us_duplicate * {
     font-family: Nunito, sans-serif;
   }
@@ -73,7 +96,7 @@
   .arch_contact_us_duplicate .text-blk.section-subhead {
     font-size: 14px;
     line-height: 18px;
-    color: #7e7e7e;
+    color: #ffffff;
   }
   
   .arch_contact_us_duplicate .input {
@@ -291,6 +314,8 @@
     .arch_contact_us_duplicate .button {
       width: 100%;
     }
+
+    
   
     .arch_contact_us_duplicate .button {
       margin-top: 0px;

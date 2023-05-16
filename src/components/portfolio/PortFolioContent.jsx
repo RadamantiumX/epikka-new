@@ -1,5 +1,6 @@
 import React from "react";
 import "./PortFolioContent.css";
+import Form from "../form/Form"
 
 import Noimage from "../../assets/img/sin-imagen.jpg";
 
@@ -83,6 +84,45 @@ export default function PortFolioContent() {
           </div>
         </div>
       </div>
+
+      <section id="contact">
+  <div class="contact-wrapper">
+       <Form/>
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">lorem, State</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">lorem@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr/>
+        <ul class="social-media-list">
+        <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        <hr/>
+
+       
+
+      </div>
+    
+  </div>
+  
+</section>  
     </>
   );
 }
