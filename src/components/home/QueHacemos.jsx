@@ -15,7 +15,7 @@ function QueHacemos() {
       <div className="container">
         <div className="row">
           <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2" data-aos="fade-up">
-            <div className="inner-column">
+            <div className="inner-column ">
               <div className="sec-title">
                 <span style={{ color: "#9B5DE5" }} className="title">¿Qué Hacemos?</span>
                 <div className="left-content">
@@ -39,7 +39,7 @@ function QueHacemos() {
           </div>
 
           <div className="image-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
-            <div className="inner-column wow fadeInLeft">
+            <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
                   <img

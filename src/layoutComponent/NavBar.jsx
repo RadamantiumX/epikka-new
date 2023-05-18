@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import { AppBar } from "@mui/material";
 import { Link } from "react-router-dom";
-import Logo from "../assets/img/logo-2.png";
+import Logo from "../assets/img/logoeppika.png";
 
 export default function NavBar() {
 

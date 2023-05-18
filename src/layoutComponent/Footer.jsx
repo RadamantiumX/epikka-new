@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/logoeppikafooter.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
                         marginBottom: "1rem",
                       }}
                     >
-                      <img src={Logo} alt='logo-brand-top ' className='brand-top'/>
+                      <img style={{width:"10rem"}} src={Logo} alt='logo-brand-top ' className='brand-top'/>
                     </h4>
     
                     <p style={{ color: "#fff" }} class="text-start text-responsive">
@@ -135,7 +135,7 @@ export default function Footer() {
     
                 <div className='row'>
                 <div style={{marginTop:"10rem", color:"#fff"}} className='col'>
-                &copy; <img src={Logo} alt="brand-footer" className='brand-footer'/> 2023 . All Rights Reserved | Design by <a href="https://epsiweb.com/">EpsiWeb</a>
+                &copy; Eppika 2023 . All Rights Reserved | Design by <a style={{color:"#ffff"}} href="https://epsiweb.com/">EpsiWeb</a>
                 </div>
     
                 </div>
