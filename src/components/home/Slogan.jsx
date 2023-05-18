@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Slogan() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+    });
+  }, []);
   return (
     <>
-      <div id="header" className="jumbotron">
+      <div id="header" className="jumbotron" data-aos="fade-down">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">

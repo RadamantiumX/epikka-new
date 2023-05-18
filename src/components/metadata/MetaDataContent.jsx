@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import LaptopMetadata from "../../assets/img/laptopmetadata.png";
 import MetadataSection from "../../assets/img/metadasection.jpg";
 import Form from "../form/Form"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function MetaDataContent() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+    });
+  }, []);
   return (
     <>
       <div class="about-section">
         <div class="container">
           <div class="row clearfix">
-            <div class="content-column col-md-6 col-sm-12 col-xs-12">
+            <div class="content-column col-md-6 col-sm-12 col-xs-12" data-aos="fade-up">
               <div class="inner-column">
                 <div class="sec-title">
                   <h2>
@@ -34,7 +41,7 @@ export default function MetaDataContent() {
                 </p>
               </div>
             </div>
-            <div class="image-column col-md-6 col-sm-12 col-xs-12">
+            <div class="image-column col-md-6 col-sm-12 col-xs-12" data-aos="fade-left">
               <div class=" " data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="image">
                   <img
@@ -52,7 +59,7 @@ export default function MetaDataContent() {
       <div style={{ marginTop: "-10rem", marginBottom:"-10rem" }} class="about-section">
         <div class="container">
           <div class="row clearfix">
-            <div class="content-column col-md-6 col-sm-12 col-xs-12">
+            <div class="content-column col-md-6 col-sm-12 col-xs-12" data-aos="fade-up">
               <div class="inner-column" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="image">
                   <img
@@ -63,7 +70,7 @@ export default function MetaDataContent() {
                 </div>
               </div>
             </div>
-            <div class="image-column col-md-6 col-sm-12 col-xs-12">
+            <div class="image-column col-md-6 col-sm-12 col-xs-12" data-aos="fade-left">
               <div class="">
                 <div class="sec-title">
                   <h2>
@@ -93,43 +100,66 @@ export default function MetaDataContent() {
       </div>
 
       <section id="contact">
-  <div class="contact-wrapper">
-       <Form/>
-      <div class="direct-contact-container">
+        <div class="contact-wrapper">
+        <div data-aos="fade-up">
+          <Form  />
+          </div>
+          <div class="direct-contact-container" data-aos="fade-left">
+            <ul class="contact-list">
+              <li class="list-item">
+                <i class="fa fa-map-marker fa-2x">
+                  <span class="contact-text place">lorem, State</span>
+                </i>
+              </li>
 
-        <ul class="contact-list">
-          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">lorem, State</span></i></li>
-          
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
-          
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">lorem@gmail.com</a></span></i></li>
-          
-        </ul>
+              <li class="list-item">
+                <i class="fa fa-phone fa-2x">
+                  <span class="contact-text phone">
+                    <a href="tel:1-212-555-5555" title="Give me a call">
+                      (212) 555-2368
+                    </a>
+                  </span>
+                </i>
+              </li>
 
-        <hr/>
-        <ul class="social-media-list">
-        <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-facebook" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          </li>       
-        </ul>
-        <hr/>
+              <li class="list-item">
+                <i class="fa fa-envelope fa-2x">
+                  <span class="contact-text gmail">
+                    <a href="mailto:#" title="Send me an email">
+                      lorem@gmail.com
+                    </a>
+                  </span>
+                </i>
+              </li>
+            </ul>
 
-       
-
-      </div>
-    
-  </div>
-  
-</section>  
+            <hr />
+            <ul class="social-media-list">
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
     </>
   );
 }
