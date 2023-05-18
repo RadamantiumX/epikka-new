@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function ComoLoHacemos() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+    });
+  }, []);
+
   return (
     <>
-      <div class="container my-5">
+      <div class="container my-5" data-aos="fade-down">
         <div class="row">
           <div class="col-md-4">
             <div class="">

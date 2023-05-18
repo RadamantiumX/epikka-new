@@ -14,3 +14,17 @@
 .bg-metadata{
     background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%),url(../../assets/img/metadata.jpg);
 }
+
+
+.monitor-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* Ajusta los valores según tus necesidades */
+    width: 600px;
+    height: auto;
+    margin-right: -79px; /* Mitad del ancho de la imagen */
+  }
+  

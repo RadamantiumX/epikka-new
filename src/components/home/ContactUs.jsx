@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import Form from "../form/Form";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default function ContactUs() {
-   
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+    });
+  }, []);
+
 
     return(
        <>
@@ -12,7 +19,7 @@ export default function ContactUs() {
           <div className="container">
             <div className="row">
               <div className="col-1"></div>
-              <div className="col-md-5 mb-50">
+              <div className="col-md-5 mb-50" data-aos="fade-up">
                 <div className="section-info">
                   <div style={{marginTop:"1.3rem"}} className="sec-title">
                 
@@ -30,7 +37,7 @@ export default function ContactUs() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3" data-aos="fade-left">
               <Form/>
               </div>
               <div className="col-1"></div>

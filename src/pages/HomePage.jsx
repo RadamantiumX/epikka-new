@@ -23,7 +23,7 @@ export default function HomePage() {
         className="scroll-link"
       ></ScrollLink>
 
-<button onClick={() => scroll.scrollToTop()} className="back-to-top-button">
+<button onClick={() => scroll.scrollToTop()} className="back-to-top-button d-none d-md-block">
   <svg class="arrows" viewBox="0 0 60 72">
     <path class="a1" d="M0 40 L30 8 L60 40"></path>
 

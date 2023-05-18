@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./ServiceContent.css";
 import cardimg from "../../assets/img/metadata.jpg";
 import imgrandom from "../../assets/img/about-us.jpg";
 import Form from "../form/Form";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function ServiceContent() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+    });
+  }, []);
   return (
     <>
       <div style={{ backgroundColor: "#f4f4f4" }}>
@@ -21,7 +29,7 @@ export default function ServiceContent() {
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="fade-down">
               <div class="service-item">
                 <img src={cardimg} />
                 <div class="down-content">
@@ -34,7 +42,7 @@ export default function ServiceContent() {
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="fade-down">
               <div class="service-item">
                 <img src={cardimg} />
                 <div class="down-content">
@@ -47,7 +55,7 @@ export default function ServiceContent() {
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="fade-down">
               <div class="service-item">
                 <img src={cardimg} />
                 <div class="down-content">
@@ -68,7 +76,7 @@ export default function ServiceContent() {
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="left-content">
+              <div class="left-content"  data-aos="fade-down">
                 <span>Lorem ipsum dolor sit amet</span>
                 <h2>Lorem ipsum dolor Lorem ipsum</h2>
                 <p>
@@ -92,22 +100,22 @@ export default function ServiceContent() {
               <div class="right-content">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="count-content">
+                    <div class="count-content"  data-aos="fade-down">
                       <h2>Lorem ipsum</h2>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="count-content">
+                    <div class="count-content"  data-aos="fade-down">
                       <h2>Lorem ipsum</h2>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="count-content">
+                    <div class="count-content"  data-aos="fade-down">
                       <h2>Lorem ipsum</h2>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="count-content">
+                    <div class="count-content"  data-aos="fade-down">
                       <h2>Lorem ipsum</h2>
                     </div>
                   </div>
@@ -123,11 +131,11 @@ export default function ServiceContent() {
       <div class="more-detail">
         <div class="container">
           <div class="more-info-content">
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row" data-aos="fade-down">
+              <div class="col-md-6"  >
                 <img src={imgrandom} />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6"  >
                 <div class="right-content">
                   <div className="sec-title">
                     <div class="left-content">
@@ -163,8 +171,10 @@ export default function ServiceContent() {
 
       <section id="contact">
         <div class="contact-wrapper">
-          <Form />
-          <div class="direct-contact-container">
+        <div data-aos="fade-up">
+          <Form  />
+          </div>
+          <div class="direct-contact-container" data-aos="fade-left">
             <ul class="contact-list">
               <li class="list-item">
                 <i class="fa fa-map-marker fa-2x">
