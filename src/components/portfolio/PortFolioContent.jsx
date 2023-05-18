@@ -15,7 +15,7 @@ export default function PortFolioContent() {
               <div class="inner-column">
                 <div class="sec-title">
                   <h2>
-                    We Are The Leader In <br /> The Interiores
+                  Lorem ipsum dolor sit <br /> consectetur
                   </h2>
                 </div>
                 <p

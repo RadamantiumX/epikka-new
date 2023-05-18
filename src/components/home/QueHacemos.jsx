@@ -10,7 +10,7 @@ function QueHacemos() {
             <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
               <div className="inner-column">
                 <div className="sec-title">
-                  <span className="title">¿Qué Hacemos?</span>
+                  <span style={{ color: "#9B5DE5" }} className="title">¿Qué Hacemos?</span>
                   <div class="left-content">
                   <span>Lorem ipsum dolor sit amet</span>
                   <h2>
