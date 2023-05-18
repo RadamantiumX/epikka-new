@@ -1,7 +1,39 @@
-import React from "react";
-import "./ContactContent.css"
+import React,{useState,useEffect,useRef} from "react";
+import "./ContactContent.css";
+import axiosClient from "../../axios-client";
+import { Alert } from "react-bootstrap";
 
 export default function ContactContent() {
+  const [formu, setFormu] = useState();
+  const [notification, setNotification] = useState(null);
+  const [show, setShow] = useState(false); 
+  
+  const nombreRef = useRef();
+  const emailRef = useRef();
+  const telefonoRef = useRef();
+  const mensajeRef = useRef();
+
+
+  const sendData=(ev)=>{
+      ev.prventDefault();
+      
+      const payload = {
+        nombre: nombreRef.current.value,
+        email: emailRef.current.value,
+        telefono: telefonoRef.current.value,
+        mensaje: mensajeRef.current.value
+      }
+      axiosClient.post('/enviar', payload)
+        .then(({data})=>{
+          setNotification(data.message);
+          setShow(true)
+          formu.reset()
+        })
+  }
+ 
+  useEffect(()=>{
+    setFormu(document.getElementById('formu'));
+  },[formu])
     return(
         <>
               <div class="arch_contact_us_duplicate">
@@ -22,13 +54,21 @@ export default function ContactContent() {
       </div>
       <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df">
         <div class="form-wrapper">
-          <input class="input input-element" name="Name" placeholder="Name"/>
-          <input class="input input-element" name="Contact Number" placeholder="Contact Number"/>
-          <input class="input input-element" name="Email" placeholder="Email"/>
-          <textarea class="textinput input-element" placeholder="Message"></textarea>
-          <button class="css-button-fully-rounded--black">
+
+          <form onSubmit={sendData} id="formu">
+          <input class="input input-element" name="Name" placeholder="Name" ref={nombreRef}/>
+          <input class="input input-element" name="Contact Number" placeholder="Contact Number" ref={telefonoRef}/>
+          <input class="input input-element" name="Email" placeholder="Email" ref={emailRef}/>
+          <textarea class="textinput input-element" placeholder="Message" useRef={mensajeRef}></textarea>
+          {show && <Alert className="m-2" variant="success" onClose={() => setShow(false)} dismissible>
+                {notification}
+              </Alert>}
+          <button class="css-button-fully-rounded--black" type="submit">
             Send
           </button>
+          </form>
+
+
         </div>
         <div class="">
         <ul class="social-media-list">
