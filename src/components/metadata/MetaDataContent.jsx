@@ -1,6 +1,6 @@
 import React from "react";
 import LaptopMetadata from "../../assets/img/laptopmetadata.png";
-import MetadataSection from "../../assets/img/metadasection.jpeg";
+import MetadataSection from "../../assets/img/metadasection.jpg";
 import Form from "../form/Form"
 
 export default function MetaDataContent() {

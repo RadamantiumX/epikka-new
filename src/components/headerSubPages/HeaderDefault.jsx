@@ -47,7 +47,7 @@ export default function HeaderDefault({ params }) {
     <>
       <div className="header">
         {bg === 'metadata' && (
-          <img className="monitor-image" src={MonitorHeader} alt="monitor" />
+          <img className="monitor-image  d-none d-md-block" src={MonitorHeader} alt="monitor" />
         )}
         <div className="contenedor head">
           <h1 className="title-head">{text}</h1>
