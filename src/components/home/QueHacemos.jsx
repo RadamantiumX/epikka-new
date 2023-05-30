@@ -14,38 +14,48 @@ function QueHacemos() {
     <section className="about-section">
       <div className="container">
         <div className="row">
-          <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2" data-aos="fade-up">
-            <div className="inner-column ">
+          <div
+            className=" col-lg-6 col-md-12 col-sm-12 order-2"
+            data-aos="fade-up"
+          >
               <div className="sec-title">
-                <span style={{ color: "#9B5DE5" }} className="title">¿Qué Hacemos?</span>
                 <div className="left-content">
-                  <span>Lorem ipsum dolor sit amet</span>
-                  <h2>Lorem Ipsum is simply dummy the printing</h2>
+                  <h2>¿Qué Hacemos?</h2>
                 </div>
               </div>
-              <p style={{ fontSize: "1.4rem", lineHeight: "30px", fontWeight: "400", marginTop: "35px", fontFamily: "'Lato', sans-serif;" }} className="text-about">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur.
+              <p
+                style={{
+                  fontSize: "1.4rem",
+                  lineHeight: "30px",
+                  fontWeight: "400",
+                  fontFamily: "'Lato', sans-serif;",
+                }}
+                className="text-about"
+              >
+                Somos una agencia de marketing digital enfocada en hacer creecer
+                tu negocio mediante el uso de las más modernas herramientas
+                digitales aplicadas a las redes sociales y la generación de
+                campañas en el ámbito del marketing digital. Nuestra meta es
+                mejorar la relación y comunicación con tus clientes, optimizando
+                los resultados de tu negocio a través de los canales digitales.
               </p>
-            </div>
+              <button 
+              className="css-button-fully-rounded--black2"
+            >
+             
+           Hacenos tu Consulta
+            </button>
+
           </div>
 
-          <div className="image-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+          <div
+            className="image-column col-lg-6 col-md-12 col-sm-12"
+            data-aos="fade-left"
+           >
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img
-                    src={noImage}
-                    alt=""
-                  />
+                  <img src={noImage} alt="" />
                 </a>
               </figure>
             </div>

@@ -114,18 +114,22 @@ a:hover {
   opacity: 3; /* Opacidad de la imagen */
 }
 .carousel-text h1 {
-  font-size: 8rem; /* Ajusta el tamaño de fuente según tus necesidades */
+  font-size: 5rem; /* Ajusta el tamaño de fuente según tus necesidades */
 }
 
 @media (max-width: 768px) {
   .carousel-text h1 {
-    font-size: 3rem; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 2.1rem;
+    text-align: center; 
+    width: 130%; 
   }
 }
 
 @media (max-width: 576px) {
   .carousel-text h1 {
-    font-size: 3rem; /* Tamaño de fuente para pantallas aún más pequeñas */
+    font-size: 2.1rem;
+    text-align: center; 
+    width: 130%;  
   }
 }
 .carousel-text {
@@ -134,7 +138,8 @@ a:hover {
   left: 10%;
   transform: translate(0, -50%);
   text-align: left;
-  color: white; 
+  color: white;
+  width: 65%; 
 }
 
 .carousel-indicators {

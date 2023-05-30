@@ -9,14 +9,10 @@ export default function ContactContent() {
     <div class="responsive-container-block container">
       <div class="responsive-cell-block wk-mobile-12 wk-desk-5 wk-tab-10 wk-ipadp-5" id="ih6s">
         <p class="text-blk section-head">
-          Get in touch dolor sit
+        ESCRIBINOS
         </p>
         <p style={{fontSize:"1.4rem",lineHeight:"30px",fontWeight:"400",marginTop:"35px", fontFamily:"'Lato', sans-serif;"}} className="text-about">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
+        Podés charlar con nosotros  a través de los distintos canales de comunicación,  dejanos un teléfono para contactarte o bien envianos un whatsapp   
                  
                 </p>
       </div>

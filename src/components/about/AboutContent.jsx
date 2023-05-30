@@ -1,113 +1,163 @@
-import React, { useEffect } from 'react';
-import "./AboutContent.css"
+import React, { useEffect } from "react";
+import "./AboutContent.css";
 import MetadataImage from "../../assets/img/metadataimage.png";
 import Form from "../form/Form";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function AboutContent() {
   useEffect(() => {
     AOS.init({
-      duration: 800, 
+      duration: 800,
     });
   }, []);
   return (
     <>
-       <div class="responsive-container-block bigContainer">
-  <div class="responsive-container-block Container">
-    <div class="imgContainer d-none d-md-block" data-aos="fade-up">
-      {/* <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg"/> */}
-      <img class="mainImg img-fluid " src={MetadataImage}/>
-    </div>
-    <div class="responsive-container-block textSide" data-aos="fade-left">
-       <div class="sec-title" >
-                  <h2>
-                    We Are The Leader In <br /> The Interiores
-                  </h2>
+     <div class="container">
+        <div style={{marginTop:"4rem"}} class="row">
+          <div class="col-md-6">
+          <div
+            className="image-column col-lg-6 col-md-12 col-sm-12"
+            data-aos="fade-left"
+           >
+            <div className="inner-column wow fadeInLeft d-none d-md-block">
+              <figure className="image-1">
+                <a href="#" className="lightbox-image" data-fancybox="images">
+                  <img className="img-fluid w-100" style={{width:"38rem"}} src="../../src/assets/img/marketingdigital.jpg" alt="" />
+                </a>
+              </figure>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="" data-aos="fade-left">
+            <div class="sec-title">
+              <span style={{ color: "#9B5DE5" }} className="title">
+                ¿Quienes Somos?
+              </span>
+              <h2>Misión</h2>
+            </div>
+            <p
+              style={{
+                fontSize: "1.4rem",
+                lineHeight: "30px",
+                fontWeight: "400",
+
+                fontFamily: "'Lato', sans-serif;",
+              }}
+              className="text-about"
+            >
+              Brindar las mejores estrategias de marketing digital para captar
+              leads, ampliar la base de clientes, fidelizar los actuales y
+              relevar nuevas tendencias del negocio. Asesoramiento en la
+              estrategia comercial mediante el análisis y seguimiento de las
+              principales métricas digitales. Estamos en constante búsqueda de
+              nuevos retos y desafíos, adaptando nuestros métodos a la evolución
+              de la tecnología, el consumo y la cultura.
+            </p>
+          </div>
+         
+            </div>
+        </div>
+        </div>
+     
+      <div class="container">
+        <div style={{marginTop:"9rem"}} class="row">
+          <div class="col-md-5">
+            <div class="columna">
+              <div class="sec-title">
+                <h2>Visión</h2>
+              </div>
+              <p
+                style={{
+                  fontSize: "1.4rem",
+                  lineHeight: "30px",
+                  fontWeight: "400",
+
+                  fontFamily: "'Lato', sans-serif;",
+                }}
+                className="text-about"
+              >
+                Ser un proveedor de analítica y marketing digital que abarque
+                todas las áreas comerciales del negocio. Para nosotros, cada uno
+                de nuestros clientes es único e inigualable, porque cada empresa
+                es un mundo y las soluciones reales son específicas para cada
+                negocio, no hay reglas generales, por eso sabemos cómo adaptar
+                nuestras herramientas de acuerdo a tus requerimientos.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-4 px-4 my-2">
+              <img style={{width:"4rem"}} src="../../src/assets/Icons/responsibility.png"/>
+                <div class="mt-3">
+                  <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
+                    Responsabilidad & Honestidad.
+                  </h5>
                 </div>
-                <p
+              </div>
+              <div class="col-md-4 px-4 my-2">
+              <img style={{width:"4rem"}} src="../../src/assets/Icons/businessman.png"/>
+                <div class="mt-3">
+                  <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
+                    Profesionalismo.
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4 px-4 my-2">
+              <img style={{width:"4rem"}} src="../../src/assets/Icons/discipline.png"/>
+                <div class="mt-3">
+                  <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
+                    Disciplina.
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4 px-4 my-2">
+              <img style={{width:"4rem"}} src="../../src/assets/Icons/creativity.png"/>
+                <div class="mt-3">
+                  <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
+                    Creatividad.
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-4 px-4 my-2">
+              <img style={{width:"4rem"}} src="../../src/assets/Icons/trust.png"/>
+              <div class="mt-3">
+                <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
+                  Confianza & Transparencia.
+                </h5>
+                {/* <p
                   style={{
-                    fontSize: "1.4rem",
+                    fontSize: "1.2rem",
                     lineHeight: "30px",
                     fontWeight: "400",
-          
                     fontFamily: "'Lato', sans-serif;",
                   }}
                   className="text-about"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-       <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-        <div class="cardImgContainer">
-          <img class="cardImg " src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/id2.svg"/>
-        </div>
-        <div class="cardText">
-          <p class="text-blk cardHeading">
-            Value
-          </p>
-          <p class="text-blk cardSubHeading">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-       </div>
-       <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-        <div class="cardImgContainer">
-          <img class="cardImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/id2.svg"/>
-        </div>
-        <div class="cardText">
-          <p class="text-blk cardHeading">
-            Value
-          </p>
-          <p class="text-blk cardSubHeading">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-       </div>
-       <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-        <div class="cardImgContainer">
-          <img class="cardImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/id2.svg"/>
-        </div>
-        <div class="cardText">
-          <p class="text-blk cardHeading">
-            Value
-          </p>
-          <p class="text-blk cardSubHeading">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do
+                </p> */}
+              </div>
+            </div>
+            <div class="col-md-4 px-4 my-2">
+            <img style={{width:"4rem"}} src="../../src/assets/Icons/personalization.png"/>
+              <div class="mt-3">
+                <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5"  }}>
+                  Personalización.
+                </h5>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-        <div class="cardImgContainer">
-          <img class="cardImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/id2.svg"/>
-        </div>
-        <div class="cardText">
-          <p class="text-blk cardHeading">
-            Value
-          </p>
-          <p class="text-blk cardSubHeading">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-      </div>
-    
-    </div>
-    <img class="redDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg"/>
-  </div>
-</div>
 
-
-<section id="contact">
+      <section id="contact">
         <div class="contact-wrapper">
-        <div data-aos="fade-up">
-          <Form  />
+          <div data-aos="fade-up">
+            <Form />
           </div>
           <div class="direct-contact-container" data-aos="fade-left">
             <ul class="contact-list">
@@ -166,8 +216,9 @@ function AboutContent() {
         </div>
       </section>
     </>
-
-  )
+  );
 }
 
-export default AboutContent
+export default AboutContent;
+
+

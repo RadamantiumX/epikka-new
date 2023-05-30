@@ -23,16 +23,10 @@ export default function ContactUs() {
                 <div className="section-info">
                   <div style={{marginTop:"1.3rem"}} className="sec-title">
                 
-                    <h2>Envianos tu Consulta</h2>
+                    <h2>Hablemos y veamos juntos como mejorar tu presencia en redes sociales.</h2>
 
                     <p style={{fontSize:"1.3rem",lineHeight:"30px",fontWeight:"400",marginTop:"35px", fontFamily:"'Lato', sans-serif;", }}>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged.
+                    Siempre estamos para escucharte. En Epikka consideramos esencial tener en cuenta tus necesidades y como podemos usar la tecnología disponible para beneficiar tu negocio. Creemos que juntos podremos lograrlo. Si tenés alguna inquietud no dudes en ponerte en contacto con nosotros y te llamaremos a la brevedad. Escribimos ya mismo o bien contáctanos a través de nuestras redes sociales.
                     </p>
                   </div>
                 </div>

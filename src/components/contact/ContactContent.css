@@ -21,6 +21,29 @@
 
 
 
+.css-button-fully-rounded--black2 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 7px 20px 30px 20px ;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid #212529;
+  background: #212529;
+  margin-bottom: 1rem;
+}
+.css-button-fully-rounded--black2:hover {
+  background: #fff;
+  color: #212529
+}
+
+
+
 .arch_contact_us_duplicate * {
     font-family: Nunito, sans-serif;
   }

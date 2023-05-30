@@ -21,7 +21,7 @@ export default function PortFolioContent() {
               <div class="inner-column">
                 <div class="sec-title">
                   <h2>
-                  Lorem ipsum dolor sit <br /> consectetur
+                  Web y Mobile Landing Page
                   </h2>
                 </div>
                 <p
@@ -34,29 +34,22 @@ export default function PortFolioContent() {
                   }}
                   className="text-about"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                 Creamos contenido en diversas plataformas que te permitirán mostrar todos tus productos y servicios de una manera atractiva y divertida. 
                 </p>
               </div>
             </div>
-            <div class="image-column col-md-6 col-sm-12 col-xs-12" data-aos="fade-left" >
-              <div
-                class="inner-column "
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="image">
-                  <img src={Noimage} alt="" />
-                </div>
-              </div>
+            <div
+            className="image-column col-lg-6 col-md-12 col-sm-12"
+            data-aos="fade-left"
+           >
+            <div className="inner-column wow fadeInLeft d-none d-md-block">
+              <figure className="image-1">
+                <a href="#" className="lightbox-image" data-fancybox="images">
+                  <img src="../../src/assets/img/programmer.jpg" alt="" />
+                </a>
+              </figure>
             </div>
+          </div>
           </div>
         </div>
       </div>

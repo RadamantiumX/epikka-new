@@ -20,7 +20,7 @@ export default function MetaDataContent() {
               <div class="inner-column">
                 <div class="sec-title">
                   <h2>
-                    Lorem ipsum dolor sit <br /> consectetur
+                  Hacemos el seguimiento de distintos indicadores de tu negocio través de tableros de gestión con la herramienta de Microsoft PowerBI.
                   </h2>
                 </div>
                 <p
@@ -32,12 +32,10 @@ export default function MetaDataContent() {
                   }}
                   className="text-about"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+               Creamos los reportes que necesitás para la gestión eficiente de tus campañas digitales.
+Evaluamos las principales métricas digitales y ajustamos la estrategia para mejorar la exposición de tu negocio en las redes sociales. 
+
+
                 </p>
               </div>
             </div>
@@ -74,10 +72,10 @@ export default function MetaDataContent() {
               <div class="">
                 <div class="sec-title">
                   <h2>
-                    Lorem ipsum dolor sit <br /> consectetur
+                  También elaboramos informes de gestión con las principales métricas de Analítica Web. De este modo podrás hacer un seguimiento de las campañas de marketing.
                   </h2>
                 </div>
-                <p
+                {/* <p
                   style={{
                     fontSize: "1.4rem",
                     lineHeight: "30px",
@@ -92,7 +90,7 @@ export default function MetaDataContent() {
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

@@ -1,70 +1,81 @@
 
-
-.services .services-heading{
-	text-align: center;
-    margin-bottom: 80px;
+.service-item.card {
+  transition: transform 0.3s ease;
 }
 
-.services h2{
-	font-size: 36px;
-    font-weight: 600;
-    color: #1e1e1e;
+.service-item.card:hover {
+  transform: scale(1.05);
 }
 
-.services em{
-    font-style: normal;
-    color: #c639b3;
+.services .services-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.service-item.card {
+  height: 90%;
 }
 
-
-.service-item{
-    margin-bottom: 4rem;
-    border-radius: 30px;
-    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+.services h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e1e1e;
 }
 
-.service-item img{
-	width: 100%;
-    overflow: hidden;
+.services em {
+  font-style: normal;
+  color: #c639b3;
 }
 
-.service-item .down-content{
-	background-color: #ffffff;
-    padding: 30px;
+.service-item {
+  margin-bottom: 4rem;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+  box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
 
-.service-item .down-content h4{
-	font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.25px;
-    margin-bottom: 15px;
+.service-item img {
+  width: 100%;
+  overflow: hidden;
 }
 
-.service-item .down-content p{
-	margin-bottom: 20px;
-	font-size: 14px;
-    color: #848484;
-    line-height: 30px;
+.service-item .down-content {
+  background-color: #ffffff;
+  padding: 30px;
 }
 
-a.filled-button{
-	background-color: #a4c639;
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 12px 30px;
-    border-radius: 30px;
-    display: inline-block;
-    transition: all 0.3s;
-    text-decoration: none;
+.service-item .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
 }
-.request-form h4{
-	font-size: 22px;
-    font-weight: 600;
-    margin: 0;
+
+.service-item .down-content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #848484;
+  line-height: 1.4;
 }
+
+a.filled-button {
+  background-color: #a4c639;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.request-form h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
 
 
 

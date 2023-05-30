@@ -110,7 +110,7 @@ export default function Form() {
               id="enviar"
             >
              
-              <p style={{color:"#ffff"}}>Enviar</p>
+              <p >Enviar</p>
             </button>
 
             <p class="aviso">
