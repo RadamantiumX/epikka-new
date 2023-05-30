@@ -1,7 +1,10 @@
 import React from "react";
-import "./ContactContent.css"
-
+import "./ContactContent.css";
+import Form from "../form/Form";
 export default function ContactContent() {
+  
+
+
     return(
         <>
               <div class="arch_contact_us_duplicate">
@@ -16,29 +19,23 @@ export default function ContactContent() {
                  
                 </p>
       </div>
-      <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df">
-        <div class="form-wrapper">
-          <input class="input input-element" name="Name" placeholder="Name"/>
-          <input class="input input-element" name="Contact Number" placeholder="Contact Number"/>
-          <input class="input input-element" name="Email" placeholder="Email"/>
-          <textarea class="textinput input-element" placeholder="Message"></textarea>
-          <button class="css-button-fully-rounded--black">
-            Send
-          </button>
+      <div className="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df">
+        <div className="form-wrapper">
+        <Form/>
         </div>
-        <div class="">
-        <ul class="social-media-list">
+        <div className="">
+        <ul className="social-media-list">
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
+            <i className="fa fa-github" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          <li><a href="#" target="_blank" className="contact-icon">
+            <i className="fa fa-codepen" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <li><a href="#" target="_blank" className="contact-icon">
+            <i className="fa fa-twitter" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <li><a href="#" target="_blank" className="contact-icon">
+            <i className="fa fa-instagram" aria-hidden="true"></i></a>
           </li>       
         </ul>
         </div>
