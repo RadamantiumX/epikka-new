@@ -5,6 +5,14 @@ import Form from "../form/Form";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Marketing from '../../assets/img/marketingdigital.jpg';
+import Respon from '../../assets/Icons/responsibility.png';
+import Bussines from '../../assets/Icons/businessman.png';
+import Discipline from '../../assets/Icons/discipline.png';
+import Creativity from '../../assets/Icons/creativity.png';
+import Trust from '../../assets/Icons/trust.png';
+import Person from '../../assets/Icons/personalization.png';
+
 function AboutContent() {
   useEffect(() => {
     AOS.init({
@@ -23,7 +31,7 @@ function AboutContent() {
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img className="img-fluid w-100" style={{width:"38rem"}} src="../../src/assets/img/marketingdigital.jpg" alt="" />
+                  <img className="img-fluid w-100" style={{width:"38rem"}} src={Marketing} alt="Epikka Marketing" />
                 </a>
               </figure>
             </div>
@@ -90,7 +98,7 @@ function AboutContent() {
           <div class="col-md-7">
             <div class="row">
               <div class="col-md-4 px-4 my-2">
-              <img style={{width:"4rem"}} src="../../src/assets/Icons/responsibility.png"/>
+              <img style={{width:"4rem"}} src={Respon} alt="Epikka Responsability"/>
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
                     Responsabilidad & Honestidad.
@@ -98,7 +106,7 @@ function AboutContent() {
                 </div>
               </div>
               <div class="col-md-4 px-4 my-2">
-              <img style={{width:"4rem"}} src="../../src/assets/Icons/businessman.png"/>
+              <img style={{width:"4rem"}} src={Bussines} alt="Epikka Bussines Man"/>
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
                     Profesionalismo.
@@ -106,7 +114,7 @@ function AboutContent() {
                 </div>
               </div>
               <div class="col-md-4 px-4 my-2">
-              <img style={{width:"4rem"}} src="../../src/assets/Icons/discipline.png"/>
+              <img style={{width:"4rem"}} src={Discipline} alt="Epikka Discipline"/>
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
                     Disciplina.
@@ -114,7 +122,7 @@ function AboutContent() {
                 </div>
               </div>
               <div class="col-md-4 px-4 my-2">
-              <img style={{width:"4rem"}} src="../../src/assets/Icons/creativity.png"/>
+              <img style={{width:"4rem"}} src={Creativity} alt="Epikka Creativity"/>
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
                     Creatividad.
@@ -122,7 +130,7 @@ function AboutContent() {
                 </div>
               </div>
               <div class="col-md-4 px-4 my-2">
-              <img style={{width:"4rem"}} src="../../src/assets/Icons/trust.png"/>
+              <img style={{width:"4rem"}} src={Trust} alt="Epikka Trust"/>
               <div class="mt-3">
                 <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5" }}>
                   Confianza & Transparencia.
@@ -142,7 +150,7 @@ function AboutContent() {
               </div>
             </div>
             <div class="col-md-4 px-4 my-2">
-            <img style={{width:"4rem"}} src="../../src/assets/Icons/personalization.png"/>
+            <img style={{width:"4rem"}} src={Person} alt="Epikka Personalization"/>
               <div class="mt-3">
                 <h5 class="mb-2" style={{ fontWeight: "bold",color: "#9B5DE5"  }}>
                   Personalización.

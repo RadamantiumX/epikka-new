@@ -5,6 +5,8 @@ import Form from "../form/Form"
 import Noimage from "../../assets/img/sin-imagen.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Programmer from '../../assets/img/programmer.jpg';
+
 
 export default function PortFolioContent() {
   useEffect(() => {
@@ -45,7 +47,7 @@ export default function PortFolioContent() {
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img src="../../src/assets/img/programmer.jpg" alt="" />
+                  <img src={Programmer} alt="Epikka Portfolio" />
                 </a>
               </figure>
             </div>
@@ -58,7 +60,7 @@ export default function PortFolioContent() {
         <div class="container">
           <div class="row">
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/gvMycv9/work-1.png" />
+              <img src="https://i.ibb.co/gvMycv9/work-1.png" alt='Epikka icon Link'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>
@@ -66,7 +68,7 @@ export default function PortFolioContent() {
               </div>
             </div>
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/QDQ3VWv/work-2.png" />
+              <img src="https://i.ibb.co/QDQ3VWv/work-2.png" alt='Epikka icon Link 2'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>
@@ -74,7 +76,7 @@ export default function PortFolioContent() {
               </div>
             </div>
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/nc4vLyb/work-3.png" />
+              <img src="https://i.ibb.co/nc4vLyb/work-3.png" alt='Epikka icon Link 3'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>

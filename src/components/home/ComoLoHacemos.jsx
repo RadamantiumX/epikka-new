@@ -2,6 +2,13 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import Check from '../../assets/Icons/check-mark.png';
+import Pencil from '../../assets/Icons/pencil.png';
+import Wrench from '../../assets/Icons/wrench.png';
+import Bullhorn from '../../assets/Icons/wrench.png';
+import Coding from "../../assets/Icons/coding.png";
+import Content from "../../assets/Icons/content.png";
+
 
 function ComoLoHacemos() {
   useEffect(() => {
@@ -41,7 +48,8 @@ function ComoLoHacemos() {
                 <div class="col-md-6 px-4 my-2">
                   <img
                     style={{ width: "3rem" }}
-                    src="../../src/assets/Icons/check-mark.png"
+                    src={Check}
+                    alt='check Epikka'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -66,7 +74,8 @@ function ComoLoHacemos() {
                 <div class="col-md-6 px-4 my-2">
                   <img
                     style={{ width: "3rem" }}
-                    src="../../src/assets/Icons/pencil.png"
+                    src={Pencil}
+                    alt='Epikka Pencil'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -91,7 +100,8 @@ function ComoLoHacemos() {
                 <div class="col-md-6 px-4 my-2">
                   <img
                     style={{ width: "3rem" }}
-                    src="../../src/assets/Icons/wrench.png"
+                    src={Wrench}
+                    alt='Epikka Wrench'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -125,7 +135,8 @@ function ComoLoHacemos() {
               <div class="col-md-4  px-4 my-2">
                 <img
                   style={{ width: "4rem" }}
-                  src="../../src/assets/Icons/bullhorn.png"
+                  src={Bullhorn}
+                  alt='Epikka Bullhorn'
                 />
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -144,7 +155,7 @@ function ComoLoHacemos() {
               <div class="col-md-4  px-4 my-2">
                 <img
                   style={{ width: "4rem" }}
-                  src="../../src/assets/Icons/coding.png"
+                  src={Coding}
                 />
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -163,7 +174,8 @@ function ComoLoHacemos() {
               <div class="col-md-4 px-4 my-2">
                 <img
                   style={{ width: "4rem" }}
-                  src="../../src/assets/Icons/content.png"
+                  src={Content}
+                  alt='Epikka Content'
                 />
                 <div class="mt-3">
                   <h5 class="mb-2" style={{ fontWeight: "bold" }}>

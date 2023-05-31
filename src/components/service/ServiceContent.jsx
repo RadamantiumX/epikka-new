@@ -6,6 +6,10 @@ import Form from "../form/Form";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import Markentin2 from '../../assets/img/marketingdigital.jpg';
+import Dev from '../../assets/img/desarrolloweb.jpg';
+import Content2 from '../../assets/img/creacioncontenido.jpg';
+import Strategy from '../../assets/img/estrategiaventas.jpg';
 
 export default function ServiceContent() {
   useEffect(() => {
@@ -28,7 +32,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src="../../src/assets/img/marketingdigital.jpg" />
+              <img src={Markentin2} alt='Epikka Marketing'/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Marketing digital
@@ -55,7 +59,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src="../../src/assets/img/desarrolloweb.jpg" />
+              <img src={Dev} alt='Epikka DevOps'/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Diseño web
@@ -81,7 +85,7 @@ export default function ServiceContent() {
             </div>
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src="../../src/assets/img/creacioncontenido.jpg" />
+              <img src={Content2} alt='Epikka Dev Content'/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Creación de contenidos
@@ -107,7 +111,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src="../../src/assets/img/estrategiaventas.jpg" />
+                <img src={Strategy} alt='Epikka Strategy'/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Estrategias de venta
@@ -193,7 +197,7 @@ export default function ServiceContent() {
           <div class="more-info-content">
             <div class="row" data-aos="fade-down">
               <div class="col-md-6">
-                <img src={imgrandom} />
+                <img src={imgrandom} alt='Epikka Meeting'/>
               </div>
               <div class="col-md-6">
                 <div class="right-content">

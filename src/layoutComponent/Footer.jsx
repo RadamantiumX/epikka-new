@@ -115,19 +115,23 @@ export default function Footer() {
                       <img
                         className="red-social"
                         src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"
+                        alt="Epikka Social 1"
                       />
     
                       <img
                         className="red-social"
                         src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"
+                        alt="Epikka Social 2"
                       />
                       <img
                         className="red-social"
                         src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfdd4901f21e4a7e0b5e_Twitter.svg"
+                        alt="Epikka Social 3"
                       />
                       <img
                         className="red-social"
                         src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfdd4ad9e5809d69776f_LinkedIn.svg"
+                        alt="Epikka Social 4"
                       />
                     </div>
                   </div>
