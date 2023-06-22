@@ -5,6 +5,14 @@ import Form from "../form/Form";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Marketing from '../../assets/img/marketingdigital.jpg';
+import Respon from '../../assets/Icons/responsibility.png';
+import Bussines from '../../assets/Icons/businessman.png';
+import Discipline from '../../assets/Icons/discipline.png';
+import Creativity from '../../assets/Icons/creativity.png';
+import Trust from '../../assets/Icons/trust.png';
+import Person from '../../assets/Icons/personalization.png';
+
 function AboutContent() {
   useEffect(() => {
     AOS.init({
@@ -13,6 +21,8 @@ function AboutContent() {
   }, []);
   return (
     <>
+
+       
      <div class="container" data-aos="fade-down">
        
      <div style={{marginTop:"4rem",textAlign:"center" }}>
@@ -42,6 +52,7 @@ function AboutContent() {
 </div>
         </div>
      
+    
         <div class="container" data-aos="fade-down">
 
         <div style={{marginTop:"6rem",textAlign:"center" }}>

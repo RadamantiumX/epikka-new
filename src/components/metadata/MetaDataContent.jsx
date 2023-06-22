@@ -45,7 +45,7 @@ Evaluamos las principales métricas digitales y ajustamos la estrategia para mej
                   <img
                     style={{ width: "1000rem" }}
                     src={LaptopMetadata}
-                    alt=""
+                    alt="Epikka Metadata Image"
                   />
                 </div>
               </div>

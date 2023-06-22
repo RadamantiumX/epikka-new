@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+
 import noImage from "../../assets/img/que-hacemos.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -59,7 +60,7 @@ function QueHacemos() {
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img src={noImage} alt="" />
+                  <img src={noImage} alt="Epikka test" />
                 </a>
               </figure>
             </div>
