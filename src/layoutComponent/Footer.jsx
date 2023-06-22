@@ -33,6 +33,21 @@ export default function Footer() {
                     <hr class="vertical" width="2px" noshade="noshade" />
                   </div>
                   <div className="col-6 col-lg-2">
+
+                  <Link to="/service">
+                    <a
+                      style={{
+                        textDecoration: "none",
+                        marginBottom: "1rem",
+                        color: "#fff",
+                      }}
+                      class="nav-link me-lg-3  text-start text-uppercase fw-bold"
+                      href="/servicios"
+                      title="Services"
+                    >
+                      SERVICIOS
+                    </a>
+                    </Link>
                     <Link to="/about">
                     <a
                       style={{
@@ -50,20 +65,7 @@ export default function Footer() {
                     </a>
                     </Link>
                     
-                    <Link to="/service">
-                    <a
-                      style={{
-                        textDecoration: "none",
-                        marginBottom: "1rem",
-                        color: "#fff",
-                      }}
-                      class="nav-link me-lg-3  text-start text-uppercase fw-bold"
-                      href="/servicios"
-                      title="Services"
-                    >
-                      SERVICIOS
-                    </a>
-                    </Link>
+                   
                     
                     <Link to="/portfolio">
                      <a
@@ -79,6 +81,20 @@ export default function Footer() {
                       PORTAFOLIO
                     </a>
                     </Link>
+                    <Link to="/portfolio">
+                     <a
+                      style={{
+                        textDecoration: "none",
+                        marginBottom: "1rem",
+                        color: "#fff",
+                      }}
+                      class="nav-link me-lg-3 text-start text-uppercase fw-bold"
+                      href="/metadata"
+                      title="Portfolio"
+                    >
+                     METADATA
+                    </a>
+                    </Link>
                    
                    <Link to="contact">
                     <a
@@ -91,7 +107,7 @@ export default function Footer() {
                       href="/contact"
                       title="Contact"
                     >
-                      CONTACTO
+                      ESCRIBINOS
                     </a>
                    </Link>
                    
@@ -105,12 +121,12 @@ export default function Footer() {
                     />
                   </div>
                   <div className="col-12 col-lg-3 ">
-                    <p
+                    <h5
                       style={{ color: "#fff", marginTop: "1rem" }}
                       class="d-flex justify-content-center"
                     >
                       Seguinos en nuestras Redes
-                    </p>
+                    </h5>
                     <div className="d-flex justify-content-center">
                       <img
                         className="red-social"
@@ -121,14 +137,8 @@ export default function Footer() {
                         className="red-social"
                         src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"
                       />
-                      <img
-                        className="red-social"
-                        src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfdd4901f21e4a7e0b5e_Twitter.svg"
-                      />
-                      <img
-                        className="red-social"
-                        src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfdd4ad9e5809d69776f_LinkedIn.svg"
-                      />
+                  
+                  
                     </div>
                   </div>
                 </div>

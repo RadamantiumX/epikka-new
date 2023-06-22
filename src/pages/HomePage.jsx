@@ -16,6 +16,23 @@ export default function HomePage() {
       <Slogan />
       <ContactUs />
 
+
+      <div className="float-sm">
+        <div className="fl-fl float-fb">
+          <i className="fa fa-facebook icn"></i>
+          <a href="" target="_blank"> Seguinos!</a>
+        </div>
+        <div className="fl-fl float-tw">
+          <i className="fa fa-instagram icn tw"></i>
+          <a href="" target="_blank">Seguinos!</a>
+        </div>
+        <div className="fl-fl float-gp">
+          <i className="fa fa-whatsapp icn"></i>
+          <a href="" target="_blank">Contactanos</a>
+        </div>
+       
+      
+      </div>
       <ScrollLink
         to="section1"
         smooth={true}

@@ -13,23 +13,20 @@ export default function HeaderDefault({ params }) {
     switch (bg) {
       case 'service':
         header.classList.add('bg-service');
-        setText('Titulo para servicio');
+        setText('Nuestros Servicios');
         break;
       case 'portfolio':
         header.classList.add('bg-portfolio');
-        setText('Titulo para portfolio');
+        setText(' Portafolio');
         break;
       case 'metadata':
         header.classList.add('bg-metadata');
-        setText('Titulo para Metadata');
+        setText(' Metadata');
         break;
-      case 'contact':
-        header.classList.add('bg-contact');
-        setText('Titulo para Contacto');
-        break;
+    
       case 'about':
         header.classList.add('bg-about');
-        setText('Titulo para About');
+        setText('Agencia');
         break;
       default:
         break;

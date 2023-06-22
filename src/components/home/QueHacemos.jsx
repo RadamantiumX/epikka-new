@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import noImage from "../../assets/img/sin-imagen.jpg";
+import noImage from "../../assets/img/que-hacemos.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import { Link } from "react-router-dom";
 
 function QueHacemos() {
   useEffect(() => {
@@ -17,7 +19,7 @@ function QueHacemos() {
           <div
             className=" col-lg-6 col-md-12 col-sm-12 order-2"
             data-aos="fade-up"
-          >
+           >
               <div className="sec-title">
                 <div className="left-content">
                   <h2>¿Qué Hacemos?</h2>
@@ -39,12 +41,14 @@ function QueHacemos() {
                 mejorar la relación y comunicación con tus clientes, optimizando
                 los resultados de tu negocio a través de los canales digitales.
               </p>
+              <Link to="/contact">
               <button 
               className="css-button-fully-rounded--black2"
             >
              
            Hacenos tu Consulta
             </button>
+            </Link>
 
           </div>
 

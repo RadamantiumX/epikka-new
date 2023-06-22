@@ -62,37 +62,38 @@ export default function NavBar() {
               <ul className=" navbar-nav ms-auto me-2 my-2 my-lg-0">
                 <li className="nav-item">
                   <Link to="/service">
-                    <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/servicios">
+                    <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/servicios">
                       Servicios
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/portfolio">
-                  <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/portafolio">
-                    Portafolio
-                  </a>
-                  </Link>           
-                </li>
-                <li className="nav-item">
-                  <Link to="/metadata">
-                  <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/metadata">
-                    Metadata
-                  </a>
-                  </Link>
-                  
-                </li>
-                <li className="nav-item">
                   <Link to="/about">
-                  <a style={{fontWeight:"bold"}} class="nav-link me-lg-3" href="/about">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/about">
                     Agencia
                   </a>
                   </Link>
                   
                 </li>
                 <li className="nav-item">
+                  <Link to="/portfolio">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/portafolio">
+                    Portafolio
+                  </a>
+                  </Link>           
+                </li>
+                <li className="nav-item">
+                  <Link to="/metadata">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/metadata">
+                    Metadata
+                  </a>
+                  </Link>
+                  
+                </li>
+             
+                <li className="nav-item">
                   <Link to="/contact">
-                      <a style={{fontWeight:"bold"}} href="/contact">Contacto</a>
+                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/contact">Escribinos</a>
                   </Link>
                   
                 </li>

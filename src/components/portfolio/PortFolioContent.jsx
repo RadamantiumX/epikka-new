@@ -87,22 +87,23 @@ export default function PortFolioContent() {
 
       <section id="contact">
         <div class="contact-wrapper">
-        <div data-aos="fade-up">
-          <Form  />
+          <div data-aos="fade-up">
+            <Form />
           </div>
           <div class="direct-contact-container" data-aos="fade-left">
             <ul class="contact-list">
-              <li class="list-item">
-                <i class="fa fa-map-marker fa-2x">
-                  <span class="contact-text place">lorem, State</span>
-                </i>
-              </li>
+            <div className="sec-title">
+                <div className="left-content">
+                  <h2>Escribinos</h2>
+                </div>
+          </div>
+             
 
               <li class="list-item">
                 <i class="fa fa-phone fa-2x">
                   <span class="contact-text phone">
                     <a href="tel:1-212-555-5555" title="Give me a call">
-                      (212) 555-2368
+                    (+54)1165516622                                           
                     </a>
                   </span>
                 </i>
@@ -133,14 +134,10 @@ export default function PortFolioContent() {
               </li>
               <li>
                 <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 </a>
               </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </li>
+         
             </ul>
             <hr />
           </div>

@@ -97,67 +97,32 @@ Evaluamos las principales métricas digitales y ajustamos la estrategia para mej
         </div>
       </div>
 
-      <section id="contact">
-        <div class="contact-wrapper">
-        <div data-aos="fade-up">
-          <Form  />
-          </div>
-          <div class="direct-contact-container" data-aos="fade-left">
-            <ul class="contact-list">
-              <li class="list-item">
-                <i class="fa fa-map-marker fa-2x">
-                  <span class="contact-text place">lorem, State</span>
-                </i>
-              </li>
+      <section className="bg-section">
+       <div className="about-us section-padding " data-scroll-index="1">
+          <div className="container">
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-md-5 mb-50" data-aos="fade-up">
+                <div className="section-info">
+                  <div style={{marginTop:"1.3rem"}} className="sec-title">
+                
+                    <h2>Hablemos y veamos juntos como mejorar tu presencia en redes sociales.</h2>
 
-              <li class="list-item">
-                <i class="fa fa-phone fa-2x">
-                  <span class="contact-text phone">
-                    <a href="tel:1-212-555-5555" title="Give me a call">
-                      (212) 555-2368
-                    </a>
-                  </span>
-                </i>
-              </li>
-
-              <li class="list-item">
-                <i class="fa fa-envelope fa-2x">
-                  <span class="contact-text gmail">
-                    <a href="mailto:#" title="Send me an email">
-                      lorem@gmail.com
-                    </a>
-                  </span>
-                </i>
-              </li>
-            </ul>
-
-            <hr />
-            <ul class="social-media-list">
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-            <hr />
+                    <p style={{fontSize:"1.3rem",lineHeight:"30px",fontWeight:"400",marginTop:"35px", fontFamily:"'Lato', sans-serif;", }}>
+                    Siempre estamos para escucharte. En Epikka consideramos esencial tener en cuenta tus necesidades y como podemos usar la tecnología disponible para beneficiar tu negocio. Creemos que juntos podremos lograrlo. Si tenés alguna inquietud no dudes en ponerte en contacto con nosotros y te llamaremos a la brevedad. Escribimos ya mismo o bien contáctanos a través de nuestras redes sociales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3" data-aos="fade-left">
+              <Form/>
+              </div>
+              <div className="col-1"></div>
+            </div>
           </div>
         </div>
-      </section>
+       
+       </section>
     </>
   );
 }
