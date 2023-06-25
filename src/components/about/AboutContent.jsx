@@ -87,7 +87,7 @@ function AboutContent() {
     <div style={{marginTop:"4rem"}} class="col-md-7">
       <div class="row">
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/responsibility.png"/>
+          <img style={{width:"4rem"}} src={Respon}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Responsabilidad & Honestidad.
@@ -95,7 +95,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/businessman.png"/>
+          <img style={{width:"4rem"}} src={Bussines}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Profesionalismo.
@@ -103,7 +103,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/discipline.png"/>
+          <img style={{width:"4rem"}} src={Discipline}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Disciplina.
@@ -111,7 +111,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/creativity.png"/>
+          <img style={{width:"4rem"}} src={Creativity}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Creatividad.
@@ -119,7 +119,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/trust.png"/>
+          <img style={{width:"4rem"}} src={Trust}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Confianza & Transparencia.
@@ -127,7 +127,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img style={{width:"4rem"}} src="../../src/assets/Icons/personalization.png"/>
+          <img style={{width:"4rem"}} src={Person}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Personalización.

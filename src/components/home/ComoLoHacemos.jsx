@@ -12,6 +12,8 @@ import Wrench from '../../assets/Icons/wrench.png';
 import Bullhorn from '../../assets/Icons/wrench.png';
 import Coding from "../../assets/Icons/coding.png";
 import Content from "../../assets/Icons/content.png";
+import Ventas from "../../assets/Icons/ventas.png";
+import MarketingDigital from "../../assets/Icons/digital-marketing.png";
 
 
 function ComoLoHacemos() {
@@ -125,7 +127,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               style={{ width: "4rem" }}
-              src="../../src/assets/Icons/bullhorn.png"
+              src={MarketingDigital}
             />
             <div class="mt-3">
               <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -145,7 +147,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               style={{ width: "4rem" }}
-              src="../../src/assets/Icons/ventas.png"
+              src={Ventas}
             />
             <div class="mt-3">
               <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -165,7 +167,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               style={{ width: "4rem" }}
-              src="../../src/assets/Icons/coding.png"
+              src={Coding}
             />
             <div class="mt-3">
               <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -184,7 +186,7 @@ function ComoLoHacemos() {
           <div class="col-md-3 px-4 my-2">
             <img
               style={{ width: "4rem" }}
-              src="../../src/assets/Icons/content.png"
+              src={Content}
             />
             <div class="mt-3">
               <h5 class="mb-2" style={{ fontWeight: "bold" }}>
