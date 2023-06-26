@@ -136,10 +136,11 @@ function ComoLoHacemos() {
                 </a>
               </h5>
               <ul style={{ listStyleType: "disc" }}>
+                <li>Campañas en redes </li>
+                <li>Social media</li>
                 <li>Crecimiento orgánico </li>
                 <li>Presencia de marca</li>
-                <li>SEO / SEM </li>
-                <li>Estrategias de conversión</li>
+                <li>SEO / SEM</li>
               </ul>
             </div>
           </div>
@@ -156,10 +157,9 @@ function ComoLoHacemos() {
                 </a>
               </h5>
               <ul style={{ listStyleType: "disc" }}>
-                <li>Crecimiento orgánico </li>
-                <li>Presencia de marca</li>
-                <li>SEO / SEM </li>
+                <li>Proceso de conversión de ventas </li>
                 <li>Estrategias de conversión</li>
+              
               </ul>
             </div>
           </div>
@@ -176,10 +176,9 @@ function ComoLoHacemos() {
                 </a>
               </h5>
               <ul style={{ listStyleType: "disc" }}>
+                <li>Diseño apropiado para generación de leads</li>
                 <li>Armado completo de tu sitio web</li>
-                <li>Landing pages</li>
-                <li>SEO / SEM </li>
-                <li>Estrategias de conversión</li>
+                <li>Landing Pages</li>
               </ul>
             </div>
           </div>
@@ -195,10 +194,9 @@ function ComoLoHacemos() {
                 </a>
               </h5>
               <ul style={{ listStyleType: "disc" }}>
-                <li>Crecimiento orgánico </li>
-                <li>Presencia de marca</li>
-                <li>SEO / SEM </li>
-                <li>Estrategias de conversión</li>
+                <li>Creación de Blogs y posts </li>
+                <li>Mail marketing</li>
+           
               </ul>
             </div>
           </div>
