@@ -21,12 +21,9 @@ export default function Footer() {
                       <img style={{width:"10rem"}} src={Logo} alt='logo-brand-top ' className='brand-top'/>
                     </h4>
     
-                    <p style={{ color: "#fff" }} class="text-start text-responsive">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled
-                    </p>
+                      <p style={{ color: "#fff" }} class="text-start text-responsive">
+                     Somos una agencia de marketing digital enfocada en hacer creecer tu negocio mediante el uso de las más modernas herramientas digitales aplicadas a las redes sociales y la generación de campañas en el ámbito del marketing digital.
+                    </p> 
                   </div>
     
                   <div className="linea col-1 d-none d-sm-block">
