@@ -28,7 +28,7 @@ export default function HomePage() {
         </div>
         <div className="fl-fl float-gp">
           <i className="fa fa-whatsapp icn"></i>
-          <a href="" target="_blank">Contactanos</a>
+          <a href="https://wa.me/?text=+541165516622" target="_blank">Contactanos!</a>
         </div>
        
       

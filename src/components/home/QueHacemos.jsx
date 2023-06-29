@@ -35,7 +35,7 @@ function QueHacemos() {
                 }}
                 className="text-about"
               >
-                Somos una agencia de marketing digital enfocada en hacer creecer
+                Somos una agencia de marketing digital enfocada en hacer crecer
                 tu negocio mediante el uso de las más modernas herramientas
                 digitales aplicadas a las redes sociales y la generación de
                 campañas en el ámbito del marketing digital. Nuestra meta es

@@ -22,7 +22,7 @@ export default function Footer() {
                     </h4>
     
                       <p style={{ color: "#fff" }} class="text-start text-responsive">
-                     Somos una agencia de marketing digital enfocada en hacer creecer tu negocio mediante el uso de las más modernas herramientas digitales aplicadas a las redes sociales y la generación de campañas en el ámbito del marketing digital.
+                     Somos una agencia de marketing digital enfocada en hacer crecer tu negocio mediante el uso de las más modernas herramientas digitales aplicadas a las redes sociales y la generación de campañas en el ámbito del marketing digital.
                     </p> 
                   </div>
     

@@ -62,14 +62,14 @@ export default function NavBar() {
               <ul className=" navbar-nav ms-auto me-2 my-2 my-lg-0">
                 <li className="nav-item">
                   <Link to="/service">
-                    <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/servicios">
+                    <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
                       Servicios
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/about">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/about">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
                     Agencia
                   </a>
                   </Link>
@@ -77,14 +77,14 @@ export default function NavBar() {
                 </li>
                 <li className="nav-item">
                   <Link to="/portfolio">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/portafolio">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
                     Portafolio
                   </a>
                   </Link>           
                 </li>
                 <li className="nav-item">
                   <Link to="/metadata">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/metadata">
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
                     Metadata
                   </a>
                   </Link>
@@ -93,7 +93,7 @@ export default function NavBar() {
              
                 <li className="nav-item">
                   <Link to="/contact">
-                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/contact">Escribinos</a>
+                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">Escribinos</a>
                   </Link>
                   
                 </li>
