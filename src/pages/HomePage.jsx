@@ -20,16 +20,17 @@ export default function HomePage() {
       <div className="float-sm">
         <div className="fl-fl float-fb">
           <i className="fa fa-facebook icn"></i>
-          <a href="" target="_blank"> Seguinos!</a>
+          <a href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank"> Seguinos!</a>
         </div>
         <div className="fl-fl float-tw">
           <i className="fa fa-instagram icn tw"></i>
-          <a href="" target="_blank">Seguinos!</a>
+          <a href="https://www.instagram.com/epikka.agencia/" target="_blank">Seguinos!</a>
         </div>
         <div className="fl-fl float-gp">
-          <i className="fa fa-whatsapp icn"></i>
-          <a href="https://wa.me/?text=+541165516622" target="_blank">Contactanos!</a>
-        </div>
+  <i className="fa fa-whatsapp icn"></i>
+  <a href="https://wa.me/541165516622?text=¡Hola! Estoy interesado/a en conocer más sobre tus servicios. ¿Podrías brindarme más información?" target="_blank">Contactanos!</a>
+</div>
+
        
       
       </div>

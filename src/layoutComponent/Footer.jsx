@@ -31,7 +31,7 @@ export default function Footer() {
                   </div>
                   <div className="col-6 col-lg-2">
 
-                  <Link to="/service">
+               
                     <a
                       style={{
                         textDecoration: "none",
@@ -39,13 +39,13 @@ export default function Footer() {
                         color: "#fff",
                       }}
                       class="nav-link me-lg-3  text-start text-uppercase fw-bold"
-                      href="/servicios"
+                      href="/service"
                       title="Services"
                     >
                       SERVICIOS
                     </a>
-                    </Link>
-                    <Link to="/about">
+                   
+                
                     <a
                       style={{
                         textDecoration: "none",
@@ -60,11 +60,11 @@ export default function Footer() {
                     >
                      AGENCIA
                     </a>
-                    </Link>
+            
                     
                    
                     
-                    <Link to="/portfolio">
+              
                      <a
                       style={{
                         textDecoration: "none",
@@ -72,13 +72,13 @@ export default function Footer() {
                         color: "#fff",
                       }}
                       class="nav-link me-lg-3 text-start text-uppercase fw-bold"
-                      href="/portafolio"
+                      href="/portfolio"
                       title="Portfolio"
                     >
                       PORTAFOLIO
                     </a>
-                    </Link>
-                    <Link to="/portfolio">
+                   
+              
                      <a
                       style={{
                         textDecoration: "none",
@@ -91,7 +91,7 @@ export default function Footer() {
                     >
                      METADATA
                     </a>
-                    </Link>
+              
                    
                    <Link to="contact">
                     <a
@@ -125,21 +125,23 @@ export default function Footer() {
                       Seguinos en nuestras Redes
                     </h5>
                     <div className="d-flex justify-content-center">
-                      <img
-                        className="red-social"
-                        src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"
-                        alt="Epikka Social 1"
-                      />
-    
-                      <img
-                        className="red-social"
-                        src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"
-                        alt="Epikka Social 2"
-                      />
-                  
-                  
-                  
-                    </div>
+  <a href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank">
+    <img
+      className="red-social"
+      src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"
+      alt="Epikka Social 1"
+    />
+  </a>
+
+  <a href="https://www.instagram.com/epikka.agencia/" target="_blank">
+    <img
+      className="red-social"
+      src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"
+      alt="Epikka Social 2"
+    />
+  </a>
+</div>
+
                   </div>
                 </div>
     

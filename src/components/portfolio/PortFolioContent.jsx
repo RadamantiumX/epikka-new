@@ -92,21 +92,20 @@ export default function PortFolioContent() {
           <div data-aos="fade-up">
             <Form />
           </div>
-          <div class="direct-contact-container" data-aos="fade-left">
+          <div style={{marginLeft:"3.8rem"}} class="direct-contact-container" data-aos="fade-left">
             <ul class="contact-list">
-            <div className="sec-title">
+              <div className="sec-title">
                 <div className="left-content">
                   <h2>Escribinos</h2>
                 </div>
-          </div>
-             
+              </div>
 
               <li class="list-item">
                 <i class="fa fa-phone fa-2x">
                   <span class="contact-text phone">
-                    <a href="tel:1-212-555-5555" title="Give me a call">
+                
                     (+54)1165516622                                           
-                    </a>
+                   
                   </span>
                 </i>
               </li>
@@ -114,8 +113,8 @@ export default function PortFolioContent() {
               <li class="list-item">
                 <i class="fa fa-envelope fa-2x">
                   <span class="contact-text gmail">
-                    <a href="mailto:#" title="Send me an email">
-                      lorem@gmail.com
+                    <a href="mailto:epikka.agencia@gmail.com" title="Send me an email">
+                    epikka.agencia@gmail.com
                     </a>
                   </span>
                 </i>
@@ -125,18 +124,18 @@ export default function PortFolioContent() {
             <hr />
             <ul class="social-media-list">
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/epikka.agencia/" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <a href="https://wa.me/541165516622?text=¡Hola! Estoy interesado/a en conocer más sobre tus servicios. ¿Podrías brindarme más información?" target="_blank" class="contact-icon">
+                  <i class="fa fa-whatsapp" ></i>
                 </a>
               </li>
          

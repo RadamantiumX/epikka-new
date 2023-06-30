@@ -38,11 +38,11 @@ export default function NavBar() {
           id="mainNav"
         >
           <div className="container d-flex justify-content-start navegacion d-flex justify-content-between">
-            <Link to="/home">
-             <a className="navbar-brand fw-bold" href="#page-top" title="Home page">
+           
+             <a className="navbar-brand fw-bold" href="/home" title="Home page">
               {/*<h3 style={{ color: "#ffff" }}>Logo</h3>*/}<img src={Logo} alt="epikka-logo-type-frontend" className="logo-img"/>
              </a>
-            </Link>
+           
             
   
             <button
@@ -61,39 +61,39 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className=" navbar-nav ms-auto me-2 my-2 my-lg-0">
                 <li className="nav-item">
-                  <Link to="/service">
-                    <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
+                 
+                    <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/service">
                       Servicios
                     </a>
-                  </Link>
+             
                 </li>
                 <li className="nav-item">
-                  <Link to="/about">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
+                
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/about">
                     Agencia
                   </a>
-                  </Link>
+               
                   
                 </li>
                 <li className="nav-item">
-                  <Link to="/portfolio">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
+                 
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/portfolio">
                     Portafolio
                   </a>
-                  </Link>           
+                           
                 </li>
                 <li className="nav-item">
-                  <Link to="/metadata">
-                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">
+               
+                  <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/metadata">
                     Metadata
                   </a>
-                  </Link>
+                  
                   
                 </li>
              
                 <li className="nav-item">
                   <Link to="/contact">
-                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="">Escribinos</a>
+                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/contact">Escribinos</a>
                   </Link>
                   
                 </li>

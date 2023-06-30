@@ -171,9 +171,11 @@ a.filled-button {
   .social-media-list li a {
     color: #fff;
   }
-  
+  .contact-icon:hover {
+    color: #000 !important;
+  }
   .social-media-list li {
-    position: relative; 
+   
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -264,7 +266,7 @@ a.filled-button {
    
     
     .name, .email, textarea {
-      width: 337px;
+      width: 322px;
     } 
     
     .direct-contact-container {

@@ -1,20 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./ServiceContent.css";
 import cardimg from "../../assets/img/metadata.jpg";
 import imgrandom from "../../assets/img/about-us.jpg";
 import Form from "../form/Form";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import Markentin2 from '../../assets/img/marketingdigital.jpg';
-import Dev from '../../assets/img/desarrolloweb.jpg';
-import Content2 from '../../assets/img/creacioncontenido.jpg';
-import Strategy from '../../assets/img/estrategiaventas.jpg';
+import Markentin2 from "../../assets/img/marketingdigital.jpg";
+import Dev from "../../assets/img/desarrolloweb.jpg";
+import Content2 from "../../assets/img/creacioncontenido.jpg";
+import Strategy from "../../assets/img/estrategiaventas.jpg";
 
 export default function ServiceContent() {
   useEffect(() => {
     AOS.init({
-      duration: 800, 
+      duration: 800,
     });
   }, []);
   return (
@@ -22,20 +22,25 @@ export default function ServiceContent() {
       <div >
         <div class="container services">
           <div class="row">
-
-          
-       
-
-          <div style={{marginTop:"8rem", marginLeft: "2rem", marginRight: "2rem"}} className="sec-title" >
-  <div className="left-content">
-    <h2>Servicios totalmente integrados brindan resultados <br/> medidos en ingresos, no en clics</h2>
-  </div>
-</div>
-
+            <div
+              style={{
+                marginTop: "8rem",
+                marginLeft: "2rem",
+                marginRight: "2rem",
+              }}
+              className="sec-title"
+            >
+              <div className="left-content">
+                <h2>
+                  Servicios totalmente integrados brindan resultados <br />{" "}
+                  medidos en ingresos, no en clics
+                </h2>
+              </div>
+            </div>
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src={Markentin2} alt='Epikka Marketing'/>
+                <img src={Markentin2} alt="Epikka Marketing" />
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Marketing digital
@@ -62,7 +67,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src={Dev} alt='Epikka DevOps'/>
+                <img src={Dev} alt="Epikka DevOps" />
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Diseño web
@@ -88,7 +93,7 @@ export default function ServiceContent() {
             </div>
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-              <img src={Content2} alt='Epikka Dev Content'/>
+                <img src={Content2} alt="Epikka Dev Content" />
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Creación de contenidos
@@ -114,7 +119,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src={Strategy} alt='Epikka Strategy'/>
+                <img src={Strategy} alt="Epikka Strategy" />
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Estrategias de venta
@@ -139,31 +144,25 @@ export default function ServiceContent() {
         </div>
       </div>
 
-
-      
-
-     
-
       <section id="contact">
         <div class="contact-wrapper">
           <div data-aos="fade-up">
             <Form />
           </div>
-          <div class="direct-contact-container" data-aos="fade-left">
+          <div style={{marginLeft:"3.8rem"}} class="direct-contact-container" data-aos="fade-left">
             <ul class="contact-list">
-            <div className="sec-title">
+              <div className="sec-title">
                 <div className="left-content">
                   <h2>Escribinos</h2>
                 </div>
-          </div>
-             
+              </div>
 
               <li class="list-item">
                 <i class="fa fa-phone fa-2x">
                   <span class="contact-text phone">
-                    <a href="tel:1-212-555-5555" title="Give me a call">
+                
                     (+54)1165516622                                           
-                    </a>
+                   
                   </span>
                 </i>
               </li>
@@ -171,8 +170,8 @@ export default function ServiceContent() {
               <li class="list-item">
                 <i class="fa fa-envelope fa-2x">
                   <span class="contact-text gmail">
-                    <a href="mailto:#" title="Send me an email">
-                      lorem@gmail.com
+                    <a href="mailto:epikka.agencia@gmail.com" title="Send me an email">
+                    epikka.agencia@gmail.com
                     </a>
                   </span>
                 </i>
@@ -182,18 +181,18 @@ export default function ServiceContent() {
             <hr />
             <ul class="social-media-list">
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/epikka.agencia/" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <a href="https://wa.me/541165516622?text=¡Hola! Estoy interesado/a en conocer más sobre tus servicios. ¿Podrías brindarme más información?" target="_blank" class="contact-icon">
+                  <i class="fa fa-whatsapp" ></i>
                 </a>
               </li>
          
