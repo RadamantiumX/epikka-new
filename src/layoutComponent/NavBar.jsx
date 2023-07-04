@@ -92,9 +92,9 @@ export default function NavBar() {
                 </li>
              
                 <li className="nav-item">
-                  <Link to="/contact">
-                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/contact">Escribinos</a>
-                  </Link>
+        
+                      <a style={{fontWeight:"bold",fontSize:"1.3rem"}} class="nav-link me-lg-3" href="/escribinos">Escribinos</a>
+              
                   
                 </li>
               </ul>

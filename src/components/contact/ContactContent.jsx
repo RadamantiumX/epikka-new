@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from 'react';
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./ContactContent.css";
 import Form from "../form/Form";
 export default function ContactContent() {
   
-
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
+  }, []);
 
     return (
+
+    
       <>
     <section style={{backgroundColor:"#000"}}>
        <div className="about-us section-padding " data-scroll-index="1">

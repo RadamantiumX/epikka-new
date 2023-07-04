@@ -39,7 +39,7 @@ function ComoLoHacemos() {
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
                       <a href="#" style={{ color: "#9B5DE5" }}>
-                        Mejora la relación con tus clientes
+                        Mejorá la relación con tus clientes
                       </a>
                     </h5>
                     <p
@@ -202,15 +202,13 @@ function ComoLoHacemos() {
           </div>
         </div>
         <div className="d-flex align-items-center justify-content-center mt-4">
-        <Link to="/contact">
-              <button 
-              className="css-button-fully-rounded--black2"
-            >
-             
-           Hacenos tu Consulta
-            </button>
-            </Link>
-        </div>
+  <a href="/escribinos">
+    <button className="css-button-fully-rounded--black2">
+      Hacenos tu Consulta
+    </button>
+  </a>
+</div>
+
       </div>
       </div>
     </>

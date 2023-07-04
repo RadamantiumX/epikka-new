@@ -42,14 +42,11 @@ function QueHacemos() {
                 mejorar la relación y comunicación con tus clientes, optimizando
                 los resultados de tu negocio a través de los canales digitales.
               </p>
-              <Link to="/contact">
-              <button 
-              className="css-button-fully-rounded--black2"
-            >
-             
-           Hacenos tu Consulta
-            </button>
-            </Link>
+              <a href="/escribinos">
+    <button className="css-button-fully-rounded--black2">
+      Hacenos tu Consulta
+    </button>
+  </a>
 
           </div>
 

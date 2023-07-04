@@ -93,7 +93,7 @@ export default function Footer() {
                     </a>
               
                    
-                   <Link to="contact">
+                 
                     <a
                       style={{
                         textDecoration: "none",
@@ -101,12 +101,12 @@ export default function Footer() {
                         color: "#fff",
                       }}
                       class="nav-link me-lg-3 text-start text-uppercase fw-bold"
-                      href="/contact"
+                      href="/escribinos"
                       title="Contact"
                     >
                       ESCRIBINOS
                     </a>
-                   </Link>
+                  
                    
                   </div>
                   <div className="linea col-1 d-none d-sm-block">

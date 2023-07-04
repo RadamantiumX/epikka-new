@@ -232,7 +232,7 @@ padding: 60px 0 !important;
 .header1{
   height: 96vh;
   display: inline-block;
- background-image:  linear-gradient(to top,  rgba(24, 26, 29, 0.404)0%,rgba(50, 24, 92, 0.404)100%),url(./assets/img/nft-car-girl-hOGKh5qHNAE-unsplash.jpg);
+ background-image:  linear-gradient(to top,  rgba(24, 26, 29, 0.404)0%,rgba(50, 24, 92, 0.404)100%),url(./assets/img/headerimage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -588,7 +588,7 @@ color: #fff;}
 
 #header {
   height: 30rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../src/assets/img/headerimage3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/img/nft-car-girl-hOGKh5qHNAE-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Fija el fondo al desplazarse */
