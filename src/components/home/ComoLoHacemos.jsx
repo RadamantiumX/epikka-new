@@ -60,7 +60,7 @@ function ComoLoHacemos() {
                   <img
                     style={{ width: "3rem" }}
                     src={Pencil}
-                    alt='Epikka Pencil'
+                    alt='Analitics metrics Epikka Pencil'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -86,7 +86,7 @@ function ComoLoHacemos() {
                   <img
                     style={{ width: "3rem" }}
                     src={Wrench}
-                    alt='Epikka Wrench'
+                    alt='Analitics metrics Epikka Wrench'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -126,6 +126,7 @@ function ComoLoHacemos() {
         <div class="row  justify-content-center">
           <div class="col-md-3  px-4 my-2">
             <img
+              alt='Epikka Marketing and Metrics'
               style={{ width: "4rem" }}
               src={MarketingDigital}
             />
@@ -147,6 +148,7 @@ function ComoLoHacemos() {
 
           <div class="col-md-3  px-4 my-2">
             <img
+              alt='Epikka Marketing and Metrics'
               style={{ width: "4rem" }}
               src={Ventas}
             />
@@ -166,6 +168,7 @@ function ComoLoHacemos() {
 
           <div class="col-md-3  px-4 my-2">
             <img
+              alt='Epikka Marketing and Metrics'
               style={{ width: "4rem" }}
               src={Coding}
             />
@@ -184,6 +187,7 @@ function ComoLoHacemos() {
           </div>
           <div class="col-md-3 px-4 my-2">
             <img
+              alt='Epikka Marketing and Metrics'
               style={{ width: "4rem" }}
               src={Content}
             />

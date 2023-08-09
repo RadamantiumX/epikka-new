@@ -129,7 +129,7 @@ export default function Footer() {
     <img
       className="red-social"
       src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"
-      alt="Epikka Social 1"
+      alt="Epikka Socials networks 1"
     />
   </a>
 
@@ -137,7 +137,7 @@ export default function Footer() {
     <img
       className="red-social"
       src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"
-      alt="Epikka Social 2"
+      alt="Epikka Socials networks 2"
     />
   </a>
 </div>

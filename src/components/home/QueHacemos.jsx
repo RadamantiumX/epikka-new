@@ -57,7 +57,7 @@ function QueHacemos() {
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img src={noImage} alt="Epikka test" />
+                  <img src={noImage} alt="Epikka test metrics and analytics" />
                 </a>
               </figure>
             </div>

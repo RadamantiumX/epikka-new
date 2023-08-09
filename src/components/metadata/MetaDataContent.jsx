@@ -63,7 +63,7 @@ Evaluamos las principales métricas digitales y ajustamos la estrategia para mej
                   <img
                     style={{ width: "1000rem" }}
                     src={MetadataSection}
-                    alt=""
+                    alt="Epikka Meatadata and analytics"
                   />
                 </div>
               </div>

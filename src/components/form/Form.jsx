@@ -29,11 +29,15 @@ export default function Form() {
         setShow(true)
         formu.reset()
       })
+      .catch(err=>{
+        const res = err.response;
+        console.log(res);
+      })
 
   }
   useEffect(()=>{
     setFormu(document.getElementById('formu'));
-  },[formu])
+  },[])
 
     return(
     
