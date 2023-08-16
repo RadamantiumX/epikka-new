@@ -40,7 +40,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src={Markentin2} alt="Epikka Marketing" />
+                <img src={Markentin2} alt="Epikka Marketing" title="The marketing and analytics professionals, we are Epikka"/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Marketing digital
@@ -67,7 +67,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src={Dev} alt="Epikka DevOps" />
+                <img src={Dev} alt="Epikka DevOps" title="The professionals developers is working now in yor project."/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Diseño web
@@ -93,7 +93,7 @@ export default function ServiceContent() {
             </div>
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src={Content2} alt="Epikka Dev Content" />
+                <img src={Content2} alt="Epikka Dev Content" title="The best website content for yor business"/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Creación de contenidos
@@ -119,7 +119,7 @@ export default function ServiceContent() {
 
             <div class="col-md-3" data-aos="fade-down">
               <div class="service-item card">
-                <img src={Strategy} alt="Epikka Strategy" />
+                <img src={Strategy} alt="Epikka Strategy" title="The best strategy for yor business"/>
                 <div class="down-content">
                   <h4 style={{ color: "#000", marginBottom: "10px" }}>
                     Estrategias de venta

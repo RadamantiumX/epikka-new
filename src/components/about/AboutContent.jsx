@@ -87,7 +87,7 @@ function AboutContent() {
     <div style={{marginTop:"4rem"}} class="col-md-7">
       <div class="row">
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer Responsability" style={{width:"4rem"}} src={Respon}/>
+          <img alt="Epikka customer Responsability" title="Responsability is our name, is Epikka" style={{width:"4rem"}} src={Respon}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Responsabilidad & Honestidad.
@@ -95,7 +95,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer Bussines" style={{width:"4rem"}} src={Bussines}/>
+          <img alt="Epikka customer Business" title="Improve your Business with Epikka" style={{width:"4rem"}} src={Bussines}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Profesionalismo.
@@ -103,7 +103,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer Discipline" style={{width:"4rem"}} src={Discipline}/>
+          <img alt="Epikka customer Discipline" title="Start the new face of yor business" style={{width:"4rem"}} src={Discipline}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Disciplina.
@@ -111,7 +111,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer creativity" style={{width:"4rem"}} src={Creativity}/>
+          <img alt="Epikka customer creativity" title="Increase yor creativity with Epikka" style={{width:"4rem"}} src={Creativity}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Creatividad.
@@ -119,7 +119,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer Trust" style={{width:"4rem"}} src={Trust}/>
+          <img alt="Epikka customer Trust" title="Trust in our job, Epikka is the best choice" style={{width:"4rem"}} src={Trust}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Confianza & Transparencia.
@@ -127,7 +127,7 @@ function AboutContent() {
           </div>
         </div>
         <div class="col-md-4 px-4 my-2 text-center">
-          <img alt="Epikka customer Persons" style={{width:"4rem"}} src={Person}/>
+          <img alt="Epikka customer Persons" title="The customer performance and service" style={{width:"4rem"}} src={Person}/>
           <div class="mt-3">
             <h5 class="mb-2" style={{ fontWeight: "bold", color: "#9B5DE5" }}>
               Personalización.

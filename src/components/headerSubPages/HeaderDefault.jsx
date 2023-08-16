@@ -44,7 +44,7 @@ export default function HeaderDefault({ params }) {
     <>
       <div className="header">
         {bg === 'metadata' && (
-          <img className="monitor-image  d-none d-md-block" src={MonitorHeader} alt="Epikka monitor metrics Analitics" />
+          <img className="monitor-image  d-none d-md-block" src={MonitorHeader} alt="Epikka monitor metrics Analitics" title="Metrics & Analytics" />
         )}
         <div className="contenedor head">
           <h1 className="title-head">{text}</h1>

@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ComoLoHacemos from "../components/home/ComoLoHacemos";
 import QueHacemos from "../components/home/QueHacemos";
 import ContactUs from "../components/home/ContactUs";
 import Slogan from "../components/home/Slogan";
 import HomeHeader from "../components/home/HomeHeader";
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import axiosClient from "../axios-client";
+
 
 
 export default function HomePage() {
+  const [url, setUrl] = useState(
+    {url:'Home'}
+     );
+ const [load, setLoad] = useState(true)    
+
+ useEffect(()=>{
+     if(load){
+      axiosClient.post('/data',url)
+      .then(()=>{
+        setLoad(false);
+      })   
+     }
+     
+ },[])
   return (
     <>
       <HomeHeader />

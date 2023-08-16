@@ -2,7 +2,12 @@ import React from "react";
 import Logo from "../assets/img/logoeppikafooter.png";
 import { Link } from "react-router-dom";
 
+
 export default function Footer() {
+ 
+  
+
+  
     return (
         <>
           <div  className="footer-section">
@@ -125,7 +130,7 @@ export default function Footer() {
                       Seguinos en nuestras Redes
                     </h5>
                     <div className="d-flex justify-content-center">
-  <a href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank">
+  <a  href="https://www.facebook.com/profile.php?id=100090325090524&mibextid=ZbWKwL" target="_blank">
     <img
       className="red-social"
       src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"
@@ -133,7 +138,7 @@ export default function Footer() {
     />
   </a>
 
-  <a href="https://www.instagram.com/epikka.agencia/" target="_blank">
+  <a  href="https://www.instagram.com/epikka.agencia/" target="_blank">
     <img
       className="red-social"
       src="https://uploads-ssl.webflow.com/60b05ed14ad9e52e356697b8/60b0faf22717fc829eecd466_IG.svg"

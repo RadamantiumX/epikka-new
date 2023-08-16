@@ -35,6 +35,7 @@ function ComoLoHacemos() {
                     style={{ width: "3rem" }}
                     src={Check}
                     alt='check Epikka'
+                    title='Check icon in Epikka'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -61,6 +62,7 @@ function ComoLoHacemos() {
                     style={{ width: "3rem" }}
                     src={Pencil}
                     alt='Analitics metrics Epikka Pencil'
+                    title='Pencil Icon in Epikka'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -87,6 +89,7 @@ function ComoLoHacemos() {
                     style={{ width: "3rem" }}
                     src={Wrench}
                     alt='Analitics metrics Epikka Wrench'
+                    title='Wrench Icon'
                   />
                   <div class="mt-3">
                     <h5 class="mb-2" style={{ fontWeight: "bold" }}>
@@ -127,6 +130,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               alt='Epikka Marketing and Metrics'
+              title='Measures, metrics and marketing'
               style={{ width: "4rem" }}
               src={MarketingDigital}
             />
@@ -149,6 +153,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               alt='Epikka Marketing and Metrics'
+              title='Sales improve in your business'
               style={{ width: "4rem" }}
               src={Ventas}
             />
@@ -169,6 +174,7 @@ function ComoLoHacemos() {
           <div class="col-md-3  px-4 my-2">
             <img
               alt='Epikka Marketing and Metrics'
+              title='The coding and professional services, for your business'
               style={{ width: "4rem" }}
               src={Coding}
             />
@@ -188,6 +194,7 @@ function ComoLoHacemos() {
           <div class="col-md-3 px-4 my-2">
             <img
               alt='Epikka Marketing and Metrics'
+              title='The best content and marketing services.'
               style={{ width: "4rem" }}
               src={Content}
             />

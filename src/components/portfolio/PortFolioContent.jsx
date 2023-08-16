@@ -47,7 +47,7 @@ export default function PortFolioContent() {
             <div className="inner-column wow fadeInLeft d-none d-md-block">
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img src={Programmer} alt="Analytics Epikka Portfolio" />
+                  <img src={Programmer} alt="Analytics Epikka Portfolio" title='The best team in coding and web design.'/>
                 </a>
               </figure>
             </div>
@@ -60,7 +60,7 @@ export default function PortFolioContent() {
         <div class="container">
           <div class="row">
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/gvMycv9/work-1.png" alt='Analytics Epikka icon Link'/>
+              <img src="https://i.ibb.co/gvMycv9/work-1.png" alt='Analytics Epikka icon Link'  title='Only in Epikka yor business is priority.'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>
@@ -68,7 +68,7 @@ export default function PortFolioContent() {
               </div>
             </div>
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/QDQ3VWv/work-2.png" alt='Analytics Epikka icon Link 2'/>
+              <img src="https://i.ibb.co/QDQ3VWv/work-2.png" alt='Analytics Epikka icon Link 2' title='Only in Epikka yor business is priority.'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>
@@ -76,7 +76,7 @@ export default function PortFolioContent() {
               </div>
             </div>
             <div class="portfolio-col" data-aos="fade-down">
-              <img src="https://i.ibb.co/nc4vLyb/work-3.png" alt='Analytics Epikka icon Link 3'/>
+              <img src="https://i.ibb.co/nc4vLyb/work-3.png" alt='Analytics Epikka icon Link 3' title='Only in Epikka yor business is priority.'/>
               <div class="layer">
                 <a href="#">
                   <i class="fa-solid fa-link"></i>

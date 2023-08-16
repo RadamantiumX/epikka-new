@@ -40,7 +40,7 @@ export default function NavBar() {
           <div className="container d-flex justify-content-start navegacion d-flex justify-content-between">
            
              <a className="navbar-brand fw-bold" href="/home" title="Home page">
-              {/*<h3 style={{ color: "#ffff" }}>Logo</h3>*/}<img src={Logo} alt="epikka-logo-type-frontend" className="logo-img"/>
+              {/*<h3 style={{ color: "#ffff" }}>Logo</h3>*/}<img src={Logo} alt="epikka logo type frontend" title="The original Epikka Logo" className="logo-img"/>
              </a>
            
             

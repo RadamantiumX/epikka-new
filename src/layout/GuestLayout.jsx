@@ -9,6 +9,7 @@ import Footer from "../layoutComponent/Footer";
 export default function GuestLayout(){
     return(
         <>
+        
         <NavBar/>
           <Outlet/>
         <Footer/>

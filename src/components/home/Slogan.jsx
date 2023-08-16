@@ -51,7 +51,7 @@ Evaluamos las principales métricas digitales y ajustamos la estrategia para mej
       </div>
       <div className="col-md-3 d-none d-md-block">
         <div className="mt-4 d-flex align-items-center justify-content-center">
-        <img className="monitor-image  d-none d-md-block" src={MonitorHeader} alt="Epikka monitor customer service" />
+        <img className="monitor-image  d-none d-md-block" src={MonitorHeader} alt="Epikka monitor customer service" title='The best service in Analytics & Marketing Digital, the improve of yor busines is our task.'/>
         </div>
       </div>
     </div>
