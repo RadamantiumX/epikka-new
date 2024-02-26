@@ -1,14 +1,17 @@
 import React,{useRef, useEffect, useState} from "react";
-import axiosClient from "../../axios-client";
+// import axiosClient from "../../axios-client";
 import { Alert } from "react-bootstrap";
 
+import { useFormContext } from "../../context/ContextForm";
 
 export default function Form() {
 
-  const [formu, setFormu] = useState();
-  const [notification, setNotification] = useState(null);
-  const [show, setShow] = useState(false);
   
+  const [notification, setNotification] = useState(null);
+ // const [show, setShow] = useState(false);
+  
+  const { setPayload, setForm, form, response, show, setShow } = useFormContext()
+
   const nombreRef = useRef();
   const emailRef = useRef();
   const telefonoRef = useRef();
@@ -16,32 +19,26 @@ export default function Form() {
 
   const sendData =(ev)=>{
     ev.preventDefault();
- 
-    const payload = {
+    setPayload({
       nombre: nombreRef.current.value,
       email: emailRef.current.value,
       telefono: telefonoRef.current.value,
       mensaje: mensajeRef.current.value
-    }
-    axiosClient.post('/enviar', payload)
-      .then(({data})=>{
-        setNotification(data.message);
-        setShow(true)
-        formu.reset()
-      })
-      .catch(err=>{
-        const res = err.response;
-        console.log(res);
-      })
-
+    })
+    
+    if(response !== null) {
+      setNotification(response)
+      setShow(true)
+      form.reset()
+    }  
   }
   useEffect(()=>{
-    setFormu(document.getElementById('formu'));
+    setForm(document.getElementById('formu'));
   },[])
 
     return(
-    
-      
+   
+     
       <div style={{ marginTop: "-3rem" }} className="block-form">
       <div className="contact_form">
         <div className="formulario">
@@ -126,7 +123,7 @@ export default function Form() {
         </div>
       </div>
     </div>
-  
+
     )
     
 }
